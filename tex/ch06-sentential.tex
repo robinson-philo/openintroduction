@@ -191,7 +191,11 @@ Consider these further examples:
 \end{earg}
 
 
-If we let $R$ mean ``The widget is replaceable'', then sentence \ref{not4} can be translated as $R$. Sentence \ref{not5} means the opposite of sentence \ref{not4}, so we can translate it $\enot R$. Sentence \ref{enot5b} adds another negation to sentence \ref{not5}. We know, as competent English speakers, that the two negations cancel each other out, so that sentence \ref{enot5b} is equivalent to sentence \ref{not4}. But the fact that two negations cancel each other out is a part of the logic of English that we actually want to capture with our formal language SL. So we will represent the two negations in sentence \ref{not5b} as two negations in SL: $\enot \enot R$. We will now have to be sure that in SL the sentences $R$ and $\enot \enot R$ mean the same thing. 
+If we let $R$ mean ``The widget is replaceable'', then sentence \ref{not4} can be translated as $R$. Sentence \ref{not5} means the opposite of sentence \ref{not4}, so we can translate it 
+$\enot R$. Sentence \ref{not5b} adds another negation to sentence \ref{not5}. We know, as competent English speakers, that the two negations cancel each other out, so that sentence 
+\ref{not5b} is equivalent to sentence \ref{not4}. But the fact that two negations cancel each other out is a part of the logic of English that we actually want to capture with our formal 
+language SL. So we will represent the two negations in sentence \ref{not5b} as two negations in SL: $\enot \enot R$. We will now have to be sure that in SL the sentences $R$ and $\enot 
+\enot R$ mean the same thing.
 
 As the above examples begin to indicate, English has all kinds of ways to negate a sentence.  Sometimes we use an explicit ``not.'' Sometimes we use a prefix like the ``ir-'' in ``irreplaceable.'' SL has just one way to form a negation: slap a \enot in front of the sentence. There is an English expression, however, that always occurs in the same place in an English sentence as the \enot occurs in the sentence SL. The English phrase is ``It is not the case that.'' Although this phrase sounds awkward, it always occurs in front of the sentence it is negating, just as the symbol \enot does. This makes it useful in translating sentences from SL back into English. $\enot R$ can be translated ``it is not the case that this widget is replaceable.'' In the earlier example, $\enot B$ can be translated ``It is not the case that Mary is in Barcelona.'' 
 
@@ -207,9 +211,15 @@ Sometimes negations in English do not function as neatly as the \enot does in SL
 \end{earg}
 
 
-If we let $H$ mean ``Elliot is happy'', then we can symbolize sentence \ref{not6} as $H$, but does \ref{not7} really mean the same thing as $\enot H$? Saying ``Elliott is unhappy'' indicates that Elliott is actively sad. But $\enot H$ can be paraphrase as simply ``It is not the case that Elliott is happy,'' which might merely mean that Elliott is just feeling neutral. As we saw on page \pageref{def:bivalent}, the logics we discuss in this textbook are \emph{bivalent}. Statements are only either true or false. Everything is in black and white, and issues like Elliott's fine gradations in mood cannot be directly represented in our system. So in SL, sentences \ref{not6} and  \ref{not7} would generally be represented by separate sentence letters.
+If we let $H$ mean ``Elliot is happy'', then we can symbolize sentence \ref{not6} as $H$, but does \ref{not7} really mean the same thing as $\enot H$? Saying ``Elliott is unhappy'' 
+indicates that Elliott is actively sad. But $\enot H$ can be paraphrase as simply ``It is not the case that Elliott is happy,'' which might merely mean that Elliott is just feeling 
+neutral. As we saw on page \pageref{def:bivalent}, the logics we discuss in this textbook are \emph{bivalent}. Statements are only either true or false. Everything is in black and white, 
+and issues like Elliott's fine gradations in mood cannot be directly represented in our system. So in SL, sentences \ref{not6} and \ref{not7} would generally be represented by separate 
+sentence letters.
 
-One way of capturing the meaning of a sentential connective is to make a table which shows how the connective changes the meaning of the sentences it is applied to. The negation simply reverses the truth value of any sentence it is put in front of. For any sentence \script{A}: If \script{A} is true, then \enot\script{A} is false. If \enot\script{A} is true, then \script{A} is false. Using T for true and F for false, we can summarize this in a \emph{characteristic truth table} for negation:
+One way of capturing the meaning of a sentential connective is to make a table which shows how the connective changes the meaning of the sentences it is applied to. The negation simply 
+reverses the truth value of any sentence it is put in front of. For any sentence \script{A}: If \script{A} is true, then \enot\script{A} is false. If \enot\script{A} is true, then 
+\script{A} is false. Using T for true and F for false, we can summarize this in a \emph{characteristic truth table} for negation:
 
 \begin{center}
 \begin{tabular}{c|c}
@@ -352,7 +362,9 @@ description={A kind of disjunction that allows for the possibility that both dis
 
 The English word ``or'' is somewhat ambiguous. Sometimes in English, when we say ``this or that,'' we mean that either option is possible, but not both. For instance, if a  restaurant menu says, ``Entr\'ees come with either soup or salad'' we naturally assume you can have soup, or you can have salad; but, if you want \emph{both} soup \emph{and} salad, then you will have to pay extra. This kind of disjunction is called an \textsc{\gls{exclusive or}} \label{def:exclusive_or}, because it excludes the possibility that both disjuncts are true. 
  
-At other times, the word ``or'' allows for the possibility that both disjuncts might be true. This is probably the case with sentence \ref{or2}, above. I might play with Denison, with Ellery, or with both Denison and Ellery. Sentence \ref{or2} merely says that I will play with \emph{at least} one of them. The \textsc{\gls{inclusive or}}\label{def:inclusive _or} is the kind of disjunction that allows for the possibility that both disjuncts are true. The inclusive or says ``This or that, or both.''
+At other times, the word ``or'' allows for the possibility that both disjuncts might be true. This is probably the case with sentence \ref{or2}, above. I might play with Denison, with 
+Ellery, or with both Denison and Ellery. Sentence \ref{or2} merely says that I will play with \emph{at least} one of them. The \textsc{\gls{inclusive or}}\label{def:inclusive_or} is the 
+kind of disjunction that allows for the possibility that both disjuncts are true. The inclusive or says ``This or that, or both.''
 
 To goal of a formal language is to remove ambiguity, so we need to pick one of these ors. SL follows tradition and uses the symbol $\eor$ to represent an \emph{inclusive or}. This winds up being reflected in the characteristic truth table for the $\eor$. The sentence $D \eor E$ is true if $D$ is true, if $E$ is true, or if both $D$ and $E$ are true. It is false only if both $D$ and $E$ are false. The truth table looks like this:
 
@@ -636,7 +648,6 @@ You can combine disjunction, conjunction, and negation to represent the exclusiv
 \end{earg}
 
 Remember on page \pageref{def:inclusive_or}, we said that the $\eor$ in SL represented an inclusive or. It said ``this or that or both.'' If we want to represent an exclusive or, we need to combine disjunction, conjuction and negation. We can break the sentence into two parts. The first part says that you get one or the other. We translate this as $(S_1 \eor S_2)$. The second part says that you do not get both. We can paraphrase this as ``It is not the case both that you get soup and that you get salad.'' Using both negation and conjunction, we translate this as $\enot(S_1 \eand S_2)$. Now we just need to put the two parts together. As we saw above, ``but'' can usually be translated as a conjunction. Sentence \ref{or.xor} can thus be translated as $(S_1 \eor S_2) \eand \enot(S_1 \eand S_2)$.
-
 
 % ******************************************
 %  * 		Recursive Syntax for  SL                		    *

@@ -1,0 +1,2309 @@
+diff --git a/autobiography-in-logic-pdf.tex b/autobiography-in-logic-pdf.tex
+index a58e748..c621f66 100644
+--- a/autobiography-in-logic-pdf.tex
++++ b/autobiography-in-logic-pdf.tex
+@@ -112,60 +112,51 @@
+ 
+ \chapterauthor{Allyson Mount}
+ 
+-This assignment was designed to enhance understanding of core concepts in an introductory logic course. Each worksheet requires students to apply logical principles they learn in class to different aspects of their own lives. The worksheets are then collected into a booklet that provides information (mostly in symbolic form) about their background, goals, and interests. After being checked for accuracy, the booklets created by one class can be used as teaching tools in subsequent classes. This allows future students to practice interpreting propositional logic sentences, truth tables, proofs, and Venn diagrams as they begin to learn these skills themselves.
++This assignment was designed to enhance understanding of core concepts in an introductory logic course. Each worksheet requires students to apply logical principles they learn in class to 
++different aspects of their own lives. The worksheets are then collected into a booklet that provides information (mostly in symbolic form) about their background, goals, and interests. 
++After being checked for accuracy, the booklets created by one class can be used as teaching tools in subsequent classes. This allows future students to practice interpreting propositional 
++logic sentences, truth tables, proofs, and Venn diagrams as they begin to learn these skills themselves.
+ 
+-The aim of this approach is twofold. The most immediate goal is to bridge the gap between abstract principles and ``real-life'' applications, which students often have difficulty seeing even when many current examples are used in class. The second goal is to encourage students to see themselves as creators (not just consumers) of educational content while also giving them an opportunity to learn about issues that matter to their peers.
++The aim of this approach is twofold. The most immediate goal is to bridge the gap between abstract principles and ``real-life'' applications, which students often have difficulty seeing 
++even when many current examples are used in class. The second goal is to encourage students to see themselves as creators (not just consumers) of educational content while also giving 
++them an opportunity to learn about issues that matter to their peers.
+ 
+-The assignment is designed to be customizable. Worksheets on different topics can be added or omitted to correspond to the logical skills covered in a course. Each worksheet (with associated instructions) is independent of the others, so they can be completed in any order. The first time through it may be useful to demonstrate in class how each worksheet could be filled out, but in future semesters the work of past students can be used to illustrate various ways of completing the assignment.
++The assignment is designed to be customizable. Worksheets on different topics can be added or omitted to correspond to the logical skills covered in a course. Each worksheet (with 
++associated instructions) is independent of the others, so they can be completed in any order. The first time through it may be useful to demonstrate in class how each worksheet could be 
++filled out, but in future semesters the work of past students can be used to illustrate various ways of completing the assignment.
+ 
+ In my own course, I used this assignment in conjunction with two free OER texts:
+ 
+ \begin{itemize}
+ 
+-\item Craig DeLancy's \textit{A Concise Introduction to Logic }(Open SUNY Textbooks, 2017. Creative Commons Attribution Non-Commercial ShareAlike 4.0 International License), which can be found at http://textbooks.opensuny.org/concise-introduction-to-logic/. Part I covers the skills needed for the propositional logic pages of this assignment.
++\item Craig DeLancy's \textit{A Concise Introduction to Logic }(Open SUNY Textbooks, 2017. Creative Commons Attribution Non-Commercial ShareAlike 4.0 International License), which can be 
++found at http://textbooks.opensuny.org/concise-introduction-to-logic/. Part I covers the skills needed for the propositional logic pages of this assignment.
+ 
+-\item Matthew J. Van Cleave's text \textit{Introduction to Logic and Critical Thinking, }Version 1.4. (Creative Commons Attribution 4.0 International License), which can be found at https://www.oercommons.org/courses/introduction-to-logic-and-critical-thinking-2. Sections
++\item Matthew J. Van Cleave's text \textit{Introduction to Logic and Critical Thinking, }Version 1.4. (Creative Commons Attribution 4.0 International License), which can be found at 
++https://www.oercommons.org/courses/introduction-to-logic-and-critical-thinking-2. Sections
+ 
+ \end{itemize}
+ 
+ \noindent 2.14-2.17 and Chapter 4 cover the skills needed for the categorical logic and fallacies pages of this assignment.
+  
+-This assignment was designed with  the support of the University System of New  Hampshire's Academic Technology Institute in summer 2017.  My hope  is that  instructors who  adapt this assignment and develop new sections will share their adaptations freely, expanding the range of possibilities available to others.
++This assignment was designed with the support of the University System of New Hampshire's Academic Technology Institute in summer 2017.  My hope is that instructors who adapt this 
++assignment and develop new sections will share their adaptations freely, expanding the range of possibilities available to others.
+ 
+ 
+ \chapter{Note to Students}
+ 
+-%\noindent ALLYSON MOUNT 
+-%
+-%\noindent Along with our textbook curriculum and readings, you will be working on an ``autobiography'' that expresses events, interests, and features of your life in logical form. Each section of the autobiography corresponds to a different formal or informal logic skill that we will study. We will devote time in class to drafting each part in a workshop-style setting. You will then revise the worksheets on your own, print out a clean copy, and put them together in a booklet at the end of the term.
+-%
+-%\noindent 
+-%
+-%\noindent Important things to know now:
+-%
+-%\noindent 
+-%
+-%\noindent  Save your work!!! You will need to keep your in-class drafts, complete them at home if necessary, and revise all of the sections to turn in on a clean copy of the booklet at the end of the term.
+-%
+-%\noindent 
+-%
+-%\noindent  If you are absent on a workshop day, it is your responsibility to find out what you missed and seek help in office hours as needed.
+-%
+-%\noindent 
+-%
+-%\noindent  The drafts will not be graded. However, productive use of the workshop time will make it much easier for you to produce a high-quality final version.
+-%
+-%\noindent 
+-%
+-%\noindent  If you keep up with the work and complete the section relevant to each topic throughout the term, putting together the final booklet should not be too time-consuming. If you delay work on it until the end, expect to find it very challenging and difficult to complete.
+-%
+-%\noindent 
+-%
+-%\noindent This assignment is not designed to require anyone to divulge sensitive personal information. The topics are intended to encourage you to apply your logic skills to a topic you know well -- yourself! The hope is that you will have fun doing this, in a thoughtful way that is suitable for sharing publicly. If any part of this assignment raises privacy concerns for some reason, please let your instructor know.
+-%
+-%\noindent 
+-%
+-%\noindent Grading: The final version of this assignment is worth 100 points (10\% of your overall course grade). The rubric that will be used to grade it can be found in a later chapter of this book. It would be wise to check the criteria for each section before you turn it in, to ensure that your project meets all of the requirements.
++%\noindent ALLYSON MOUNT % %\noindent Along with our textbook curriculum and readings, you will be working on an ``autobiography'' that expresses events, interests, and features of your 
++life in logical form. Each section of the autobiography corresponds to a different formal or informal logic skill that we will study. We will devote time in class to drafting each part in 
++a workshop-style setting. You will then revise the worksheets on your own, print out a clean copy, and put them together in a booklet at the end of the term. % %\noindent % %\noindent 
++Important things to know now: % %\noindent % %\noindent Save your work!!! You will need to keep your in-class drafts, complete them at home if necessary, and revise all of the sections to 
++turn in on a clean copy of the booklet at the end of the term. % %\noindent % %\noindent If you are absent on a workshop day, it is your responsibility to find out what you missed and 
++seek help in office hours as needed. % %\noindent % %\noindent The drafts will not be graded. However, productive use of the workshop time will make it much easier for you to produce a 
++high-quality final version. % %\noindent % %\noindent If you keep up with the work and complete the section relevant to each topic throughout the term, putting together the final booklet 
++should not be too time-consuming. If you delay work on it until the end, expect to find it very challenging and difficult to complete. % %\noindent % %\noindent This assignment is not 
++designed to require anyone to divulge sensitive personal information. The topics are intended to encourage you to apply your logic skills to a topic you know well -- yourself! The hope is 
++that you will have fun doing this, in a thoughtful way that is suitable for sharing publicly. If any part of this assignment raises privacy concerns for some reason, please let your 
++instructor know. % %\noindent % %\noindent Grading: The final version of this assignment is worth 100 points (10\% of your overall course grade). The rubric that will be used to grade it 
++can be found in a later chapter of this book. It would be wise to check the criteria for each section before you turn it in, to ensure that your project meets all of the requirements.
+ 
+ \chapter{Biographical Information}
+ 
+@@ -173,86 +164,92 @@ This assignment was designed with  the support of the University System of New
+ 
+ \noindent \textbf{Autobiographical subject matter: }This section will focus on basic background information about you.
+ 
+-\noindent 
++\noindent
+ 
+ \noindent \textbf{Logical skills involved:}
+ 
+-\noindent 
++\noindent
+ 
+-\noindent  Representing factual claims in propositional logic
++\noindent Representing factual claims in propositional logic
+ 
+-\noindent 
++\noindent
+ 
+-\noindent  Constructing a truth table for a complex claim
++\noindent Constructing a truth table for a complex claim
+ 
+-\noindent 
++\noindent
+ 
+-\noindent  Identifying which line of a truth table reflects the real-world situation
++\noindent Identifying which line of a truth table reflects the real-world situation
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\noindent \textbf{Worksheet instructions: }Make a key that contains five biographical claims about yourself: three \textit{true }claims, and two \textit{false }claims. Each letter should stand for an atomic sentence of propositional logic. Do not indicate in the key which claims are true and which are false. Mix up the true and false claims in a random order, so that the reader can't tell from the key alone which are which. Make the false ones realistic and believable.
++\noindent \textbf{Worksheet instructions: }Make a key that contains five biographical claims about yourself: three \textit{true }claims, and two \textit{false }claims. Each letter should 
++stand for an atomic sentence of propositional logic. Do not indicate in the key which claims are true and which are false. Mix up the true and false claims in a random order, so that the 
++reader can't tell from the key alone which are which. Make the false ones realistic and believable.
+ 
+-\noindent 
++\noindent
+ 
+-\noindent Please use the given key letters. Include whatever types of biographical claims you consider important about your background, such as where you're from, when you were born, whether you have siblings, what kind of school you went to, etc. There are no specific facts that everyone must include -- so if you would rather not indicate your age, for instance, it is fine to focus on other biographical claims.
++\noindent Please use the given key letters. Include whatever types of biographical claims you consider important about your background, such as where you're from, when you were born, 
++whether you have siblings, what kind of school you went to, etc. There are no specific facts that everyone must include -- so if you would rather not indicate your age, for instance, it 
++is fine to focus on other biographical claims.
+ 
+-\noindent 
++\noindent
+ 
+-\noindent Then, given your key, provide the information requested below. If you have done the key correctly, there will be multiple correct examples you could give for some of these parts. Just give \textit{one }example of each requested type.
++\noindent Then, given your key, provide the information requested below. If you have done the key correctly, there will be multiple correct examples you could give for some of these 
++parts. Just give \textit{one }example of each requested type.
+ 
+-\noindent 
++\noindent
+ 
+ \noindent Again, please \textit{don't }indicate which two claims are the false ones on this worksheet itself, even though it can be deduced from your examples.
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+ \noindent \textbf{Advice and things to keep in mind}
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+ \noindent Make sure each letter in your key stands for an atomic sentence -- not just a word or phrase, and not a negation, conditional, conjunction, etc.
+ 
+ \noindent Here and throughout the project, it is fine to use `I' in your key. Alternatively, you can refer to yourself by your name, although that might sound odd in an autobiography.
+ 
+-\noindent Show the work in your truth table. To be complete, it must include a column of values for each logical constant, not just the main column.\textbf{\textit{Biographical Information Worksheet}}
++\noindent Show the work in your truth table. To be complete, it must include a column of values for each logical constant, not just the main column.\textbf{\textit{Biographical 
++Information Worksheet}}
+ 
+-\noindent 
++\noindent
+ 
+ \noindent \underbar{KEY}
+ 
+-\noindent 
++\noindent
+ 
+ \noindent P =
+ 
+-\noindent 
++\noindent
+ 
+ \noindent Q = R = S = T =
+ 
+ \noindent A \textit{negation }that expresses a true claim about me: \underbar{ }
+ 
+-\noindent 
++\noindent
+ 
+ \noindent A \textit{conjunction }that expresses a true claim about me: \underbar{ }
+ 
+-\noindent 
++\noindent
+ 
+ \noindent A \textit{conditional }that expresses a false claim about me: \underbar{ }
+ 
+-\noindent 
++\noindent
+ 
+ \noindent The formula \textbf{($\boldsymbol{\mathrm{\neg}}$Q $\boldsymbol{\mathrm{\to}}$ (P $\boldsymbol{\mathrm{\wedge}}$ S)) }represents the following claim, stated in English:
+ 
+ 
+-\noindent Overall, this is a   true / false   (circle one) claim about me.
++\noindent Overall, this is a true / false (circle one) claim about me.
+ 
+ 
+ \noindent A complex formula involving \textit{three }letters and \textit{at least two }logical constants that represents a true claim about me: \underbar{ }
+@@ -262,84 +259,93 @@ This assignment was designed with  the support of the University System of New
+ 
+ \noindent Which row of the table represents the actual, real-world situation with respect to the truth or falsity of the atomic sentences involved?  \underbar{ }
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\chapter{Interests}
+-\chapterauthor{Allyson Mount}
++\chapter{Interests} \chapterauthor{Allyson Mount}
+ 
+-\noindent \textbf{Autobiographical subject matter:  }This section will focus on your  extracurricular activities and interests. Choose a small number of non-academic activities that you enjoy pursuing in your free time. They can be hobbies, sports, outdoor activities, or other things of that nature. They do not need to be activities that correspond to an official club or organization, and they do not need to be related to college.
++\noindent \textbf{Autobiographical subject matter: }This section will focus on your extracurricular activities and interests. Choose a small number of non-academic activities that you 
++enjoy pursuing in your free time. They can be hobbies, sports, outdoor activities, or other things of that nature. They do not need to be activities that correspond to an official club or 
++organization, and they do not need to be related to college.
+ 
+-\noindent 
++\noindent
+ 
+ \noindent \textbf{Logical skills involved:}
+ 
+-\noindent 
++\noindent
+ 
+-\noindent  Representing the relationship between groups using Venn diagrams
++\noindent Representing the relationship between groups using Venn diagrams
+ 
+-\noindent 
++\noindent
+ 
+-\noindent  Interpreting the claims represented by Venns
++\noindent Interpreting the claims represented by Venns
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+ \noindent \textbf{Worksheet instructions:}
+ 
+-\noindent 
++\noindent
+ 
+ \noindent For the 2-circle parts:
+ 
+-\noindent 
++\noindent
+ 
+-\noindent  Choose two different extracurricular activities, interests, or hobbies that you enjoy. Label the \textit{right- hand }circle in each pair with a term that applies to people who engage in that activity. Notice that the \textit{left }circle in each pair is already labeled, so all circles in the top section should be labeled.
++\noindent Choose two different extracurricular activities, interests, or hobbies that you enjoy. Label the \textit{right- hand }circle in each pair with a term that applies to people who 
++engage in that activity. Notice that the \textit{left }circle in each pair is already labeled, so all circles in the top section should be labeled.
+ 
+-\noindent 
++\noindent
+ 
+-\noindent  In the proposition below, fill in the blank with the same term as your right circle label. Then fill in the diagram to represent that proposition, starring or shading where needed.
++\noindent In the proposition below, fill in the blank with the same term as your right circle label. Then fill in the diagram to represent that proposition, starring or shading where 
++needed.
+ 
+-\noindent 
++\noindent
+ 
+ \noindent For the 3-circle part:
+ 
+-\noindent 
++\noindent
+ 
+-\noindent  Label two of the circles (it doesn't matter which) with the same two group terms as above. Then think of a third interest or activity you enjoy, and label the remaining circle with a term for people who engage in that activity.
++\noindent Label two of the circles (it doesn't matter which) with the same two group terms as above. Then think of a third interest or activity you enjoy, and label the remaining circle 
++with a term for people who engage in that activity.
+ 
+-\noindent 
++\noindent
+ 
+-\noindent  Given your labels and the diagram content that is already there, interpret the diagram and fill in the blanks below. Each answer should be a categorical propositions. Please write out the actual proposition in English (don't just write A, E, I, O).Using  common sense and your  actual  knowledge of the world, indicate whether each of those categorical propositions is true or false.
++\noindent Given your labels and the diagram content that is already there, interpret the diagram and fill in the blanks below. Each answer should be a categorical propositions. Please 
++write out the actual proposition in English (don't just write A, E, I, O).Using common sense and your actual knowledge of the world, indicate whether each of those categorical 
++propositions is true or false.
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+ \noindent \textbf{Advice and things to keep in mind}
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\noindent It is crucial that your circles are labeled correctly. Each circle should be labeled with a term that applies to people (including you!) who engage in that activity. For example, either ``stamp collectors'' or ``people who collect stamps'' is fine -- but ``stamps'' would not make sense in this context. (If the circle is labeled ``stamps,'' then just stamps themselves fall into the category represented.) Likewise, ``collecting stamps'' is an activity, not a group of people, so it wouldn't be an appropriate label for a circle.\includegraphics*[width=2.51in, height=1.59in, keepaspectratio=false]{image2}\textit{Interests Worksheet}
++\noindent It is crucial that your circles are labeled correctly. Each circle should be labeled with a term that applies to people (including you!) who engage in that activity. For 
++example, either ``stamp collectors'' or ``people who collect stamps'' is fine -- but ``stamps'' would not make sense in this context. (If the circle is labeled ``stamps,'' then just 
++stamps themselves fall into the category represented.) Likewise, ``collecting stamps'' is an activity, not a group of people, so it wouldn't be an appropriate label for a 
++circle.\includegraphics*[width=2.51in, height=1.59in, keepaspectratio=false]{image2}\textit{Interests Worksheet}
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+ \noindent \includegraphics*[width=2.51in, height=1.59in, keepaspectratio=false]{image3}
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+ \noindent Some college student is a \underbar{ }
+ 
+@@ -347,267 +353,278 @@ This assignment was designed with  the support of the University System of New
+ 
+ \noindent are people who were born before 2016.
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+ \noindent \includegraphics*[width=2.44in, height=2.29in, keepaspectratio=false]{image4}
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+ \noindent Proposition represented by the shaded region:
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+ \noindent This claim is true/false (circle one).
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+ \noindent Proposition represented by the starred region:
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+ \noindent This claim is true/false (circle one).
+ 
+-\chapter{GOAL OR ASPIRATION}
+-\chapterauthor{Allyson Mount}
++\chapter{GOAL OR ASPIRATION} \chapterauthor{Allyson Mount}
+ 
+ 
+-\noindent \textbf{Autobiographical subject matter: }This section will focus on a future goal or aspiration. It can be an educational, professional, or personal goal. Choose a goal you have for at least a year or two in the future.
++\noindent \textbf{Autobiographical subject matter: }This section will focus on a future goal or aspiration. It can be an educational, professional, or personal goal. Choose a goal you 
++have for at least a year or two in the future.
+ 
+-\noindent 
++\noindent
+ 
+ \noindent \textbf{Logical skills involved:}
+ 
+-\noindent 
++\noindent
+ 
+-\noindent  Expressing conditional claims in propositional logic
++\noindent Expressing conditional claims in propositional logic
+ 
+-\noindent 
++\noindent
+ 
+-\noindent  Using the conditional derivation rule in a proof
++\noindent Using the conditional derivation rule in a proof
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+ \noindent \textbf{Worksheet instructions: }State your goal as an atomic sentence. Choose a letter to represent it, and add it to the key.
+ 
+-\noindent 
++\noindent
+ 
+-\noindent Think of an initial activity or condition that would help you start making progress toward that goal. Choose a letter to represent it, state it as an atomic sentence, and add it to the key.
++\noindent Think of an initial activity or condition that would help you start making progress toward that goal. Choose a letter to represent it, state it as an atomic sentence, and add it 
++to the key.
+ 
+-\noindent 
++\noindent
+ 
+-\noindent Write a chain of three conditionals that expresses a sequence of steps that you anticipate needing to take in order to accomplish the goal. Make a key and give the form of the three conditionals.
++\noindent Write a chain of three conditionals that expresses a sequence of steps that you anticipate needing to take in order to accomplish the goal. Make a key and give the form of the 
++three conditionals.
+ 
+-\noindent 
++\noindent
+ 
+-\noindent  The antecedent of the first should be the initial activity that you just identified above.
++\noindent The antecedent of the first should be the initial activity that you just identified above.
+ 
+-\noindent 
++\noindent
+ 
+-\noindent  The consequent of the first should match the antecedent of the second.
++\noindent The consequent of the first should match the antecedent of the second.
+ 
+-\noindent 
++\noindent
+ 
+-\noindent  The consequent of the second should match the antecedent of the third.
++\noindent The consequent of the second should match the antecedent of the third.
+ 
+-\noindent 
++\noindent
+ 
+-\noindent  The consequent of the third should be the goal that you stated above.
++\noindent The consequent of the third should be the goal that you stated above.
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+ \noindent Making this chain of conditionals will require adding two more atomic sentences to your key. Then give the form of those three conditionals.
+ 
+-\noindent 
++\noindent
+ 
+-\noindent Give a formal proof in which the three conditionals in the chain are premises. The conclusion of your proof should be a conditional stating that \textit{if }the initial activity/condition is met, \textit{then }your goal follows. Derive the conclusion using the conditional derivation rule. No additional premises should be needed.\textbf{Advice and things to keep in mind}
++\noindent Give a formal proof in which the three conditionals in the chain are premises. The conclusion of your proof should be a conditional stating that \textit{if }the initial 
++activity/condition is met, \textit{then }your goal follows. Derive the conclusion using the conditional derivation rule. No additional premises should be needed.\textbf{Advice and things 
++to keep in mind}
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\noindent You may find it easier to draft your chain of three conditionals in English first, then put them in symbolic form and fill out the key. Just the key, symbolic forms, and proof are on the worksheet, but be sure your chain of conditionals makes conceptual sense before formalizing it!
++\noindent You may find it easier to draft your chain of three conditionals in English first, then put them in symbolic form and fill out the key. Just the key, symbolic forms, and proof 
++are on the worksheet, but be sure your chain of conditionals makes conceptual sense before formalizing it!
+ 
+-\noindent Of course, in life there are often many different steps one could take while aiming to accomplish a certain goal. There is no need to capture all the possibilities; just use the sequence of conditionals that seems most realistic, sensible, or promising to you.\textit{Goal or Aspiration Worksheet}
++\noindent Of course, in life there are often many different steps one could take while aiming to accomplish a certain goal. There is no need to capture all the possibilities; just use the 
++sequence of conditionals that seems most realistic, sensible, or promising to you.\textit{Goal or Aspiration Worksheet}
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+ \noindent GOAL:
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+ \noindent INITIAL ACTIVITY:
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+ \noindent KEY:
+ 
+-\noindent 
++\noindent
+ 
+-\noindent \underbar{      } = \underbar{ }
++\noindent \underbar{ } = \underbar{ }
+ 
+-\noindent 
++\noindent
+ 
+-\noindent \underbar{      } = \underbar{ }
++\noindent \underbar{ } = \underbar{ }
+ 
+-\noindent 
++\noindent
+ 
+-\noindent \underbar{      } = \underbar{ }
++\noindent \underbar{ } = \underbar{ }
+ 
+-\noindent 
++\noindent
+ 
+-\noindent \underbar{      } = \underbar{ }
++\noindent \underbar{ } = \underbar{ }
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+ \noindent CONDITIONAL FORMS:
+ 
+-\noindent 
++\noindent
+ 
+-\begin{tabular}{|p{0.3in}|p{1.1in}|} \hline 
+-1. & \underbar{ } \\ \hline 
+-2. & \underbar{ } \\ \hline 
+-3. & \underbar{ } \\ \hline 
+-\end{tabular}
++\begin{tabular}{|p{0.3in}|p{1.1in}|} \hline 1. & \underbar{ } \\ \hline 2. & \underbar{ } \\ \hline 3. & \underbar{ } \\ \hline \end{tabular}
+ 
+ 
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+ \noindent PROOF:
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\chapter{Fallacy}
+-\chapterauthor{Allyson Mount}
++\chapter{Fallacy} \chapterauthor{Allyson Mount}
+ 
+ 
+ \noindent \textbf{Autobiographical subject matter: }This section will focus on a fallacy or mistaken belief that has impacted your life in some way.
+ 
+-\noindent 
++\noindent
+ 
+ \noindent \textbf{Logical skills involved:}
+ 
+-\noindent 
++\noindent
+ 
+-\noindent  Identifying and analyzing fallacies
++\noindent Identifying and analyzing fallacies
+ 
+-\noindent 
++\noindent
+ 
+-\noindent  Writing a clear and compelling argument
++\noindent Writing a clear and compelling argument
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\noindent \textbf{Worksheet instructions: }You can either focus on a mistaken belief that someone else had about you \underbar{or} a mistaken belief that you had about someone else. On the worksheet, state the belief \textit{as a single sentence}. It should be a sentence that you think is false, since that's what makes it a mistaken belief! Then check the appropriate box below.
++\noindent \textbf{Worksheet instructions: }You can either focus on a mistaken belief that someone else had about you \underbar{or} a mistaken belief that you had about someone else. On 
++the worksheet, state the belief \textit{as a single sentence}. It should be a sentence that you think is false, since that's what makes it a mistaken belief! Then check the appropriate 
++box below.
+ 
+-\noindent 
++\noindent
+ 
+-\noindent Write a paragraph explaining the reasoning behind the mistaken belief, from the perspective of someone who believes it. In other words, try to express how someone who has that belief might attempt to justify it. This paragraph should contain one of the formal or informal fallacies covered in assigned readings for this class, but the error in reasoning should not be so blatant that the argument sounds ridiculous. Remember, someone actually did believe it!
++\noindent Write a paragraph explaining the reasoning behind the mistaken belief, from the perspective of someone who believes it. In other words, try to express how someone who has that 
++belief might attempt to justify it. This paragraph should contain one of the formal or informal fallacies covered in assigned readings for this class, but the error in reasoning should 
++not be so blatant that the argument sounds ridiculous. Remember, someone actually did believe it!
+ 
+-\noindent 
++\noindent
+ 
+-\noindent Then write a paragraph identifying what the error in reasoning is, and how it most likely came about. Your paragraph should make it clear what fallacy is involved, and exactly where the reasoning in the prior paragraph goes wrong. Make sure to explain \textit{the specific problem with that particular argument, }rather than simply naming the fallacy and explaining the type of fallacy in general.
++\noindent Then write a paragraph identifying what the error in reasoning is, and how it most likely came about. Your paragraph should make it clear what fallacy is involved, and exactly 
++where the reasoning in the prior paragraph goes wrong. Make sure to explain \textit{the specific problem with that particular argument, }rather than simply naming the fallacy and 
++explaining the type of fallacy in general.
+ 
+ \noindent \textbf{Advice and things to keep in mind}
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\noindent Whichever option you choose, please avoid including personal information \textit{about anyone else }in a way that would make them uncomfortable. For instance, if a friend or teacher made an offensive assumption about you, or if you did so about them, please do not identify the particular person involved. The aim is to identify the fallacy and respond effectively to the mistake in reasoning, not to expose sensitive or potentially embarrassing information.
++\noindent Whichever option you choose, please avoid including personal information \textit{about anyone else }in a way that would make them uncomfortable. For instance, if a friend or 
++teacher made an offensive assumption about you, or if you did so about them, please do not identify the particular person involved. The aim is to identify the fallacy and respond 
++effectively to the mistake in reasoning, not to expose sensitive or potentially embarrassing information.
+ 
+-\noindent Likewise, keep in mind that your worksheet should be PG-rated and suitable for a public audience. If the mistaken belief arose based on assumptions that are sexist, racist, homophobic, or otherwise hateful, you can convey the serious nature of the issue without expressing it using obscene or degrading language yourself. Recall that responding effectively to fallacies requires articulating the source of the error in a way that may change people's minds, rather than simply making them defensive.\textit{Fallacy Worksheet}
++\noindent Likewise, keep in mind that your worksheet should be PG-rated and suitable for a public audience. If the mistaken belief arose based on assumptions that are sexist, racist, 
++homophobic, or otherwise hateful, you can convey the serious nature of the issue without expressing it using obscene or degrading language yourself. Recall that responding effectively to 
++fallacies requires articulating the source of the error in a way that may change people's minds, rather than simply making them defensive.\textit{Fallacy Worksheet}
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+ \noindent MISTAKEN BELIEF:
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+-\noindent 
++\noindent
+ 
+ \noindent Check one:
+ 
+-\noindent 
++\noindent
+ 
+ \noindent $\mathrm{\lozenge}$ This is a belief that someone once had about me
+ 
+-\noindent 
++\noindent
+ 
+ \noindent $\mathrm{\lozenge}$ This is a belief that I once had about someone else
+ 
+diff --git a/openintroduction.bcf b/openintroduction.bcf
+index e8a5c24..defc62c 100644
+--- a/openintroduction.bcf
++++ b/openintroduction.bcf
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<bcf:controlfile version="3.4" bltxversion="3.10" xmlns:bcf="https://sourceforge.net/projects/biblatex">
++<bcf:controlfile version="3.4" bltxversion="3.11" xmlns:bcf="https://sourceforge.net/projects/biblatex">
+   <!-- BIBER OPTIONS -->
+   <bcf:options component="biber" type="global">
+     <bcf:option type="singlevalued">
+@@ -241,6 +241,585 @@
+       <bcf:value>1</bcf:value>
+     </bcf:option>
+   </bcf:options>
++  <!-- jurisdiction -->
++  <bcf:options component="biblatex" type="jurisdiction">
++    <bcf:option type="singlevalued">
++      <bcf:key>labelalpha</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="multivalued">
++      <bcf:key>labelnamespec</bcf:key>
++      <bcf:value order="1">shortauthor</bcf:value>
++      <bcf:value order="2">author</bcf:value>
++      <bcf:value order="3">shorteditor</bcf:value>
++      <bcf:value order="4">namea</bcf:value>
++      <bcf:value order="5">editor</bcf:value>
++      <bcf:value order="6">nameb</bcf:value>
++      <bcf:value order="7">translator</bcf:value>
++      <bcf:value order="8">namec</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>labeltitle</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="multivalued">
++      <bcf:key>labeltitlespec</bcf:key>
++      <bcf:value order="1">shorttitle</bcf:value>
++      <bcf:value order="2">title</bcf:value>
++      <bcf:value order="3">maintitle</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>labeltitleyear</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>labeldateparts</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="multivalued">
++      <bcf:key>labeldatespec</bcf:key>
++      <bcf:value order="1" type="field">date</bcf:value>
++      <bcf:value order="2" type="field">year</bcf:value>
++      <bcf:value order="3" type="field">eventdate</bcf:value>
++      <bcf:value order="4" type="field">origdate</bcf:value>
++      <bcf:value order="5" type="field">urldate</bcf:value>
++      <bcf:value order="6" type="string">nodate</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>maxalphanames</bcf:key>
++      <bcf:value>3</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>maxbibnames</bcf:key>
++      <bcf:value>10</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>maxcitenames</bcf:key>
++      <bcf:value>3</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>maxitems</bcf:key>
++      <bcf:value>3</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>minalphanames</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>minbibnames</bcf:key>
++      <bcf:value>7</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>mincitenames</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>minitems</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>singletitle</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>skipbib</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>skiplab</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>skipbiblist</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>uniquelist</bcf:key>
++      <bcf:value>2</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>uniquename</bcf:key>
++      <bcf:value>6</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>uniqueprimaryauthor</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>uniquetitle</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>uniquebaretitle</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>uniquework</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useprefix</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useafterword</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useannotator</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useauthor</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>usebookauthor</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>usecommentator</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useeditor</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useeditora</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useeditorb</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useeditorc</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useforeword</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useholder</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useintroduction</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>usenamea</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>usenameb</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>usenamec</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>usetranslator</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useshortauthor</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useshorteditor</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++  </bcf:options>
++  <!-- legal -->
++  <bcf:options component="biblatex" type="legal">
++    <bcf:option type="singlevalued">
++      <bcf:key>labelalpha</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="multivalued">
++      <bcf:key>labelnamespec</bcf:key>
++      <bcf:value order="1">shortauthor</bcf:value>
++      <bcf:value order="2">author</bcf:value>
++      <bcf:value order="3">shorteditor</bcf:value>
++      <bcf:value order="4">namea</bcf:value>
++      <bcf:value order="5">editor</bcf:value>
++      <bcf:value order="6">nameb</bcf:value>
++      <bcf:value order="7">translator</bcf:value>
++      <bcf:value order="8">namec</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>labeltitle</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="multivalued">
++      <bcf:key>labeltitlespec</bcf:key>
++      <bcf:value order="1">shorttitle</bcf:value>
++      <bcf:value order="2">title</bcf:value>
++      <bcf:value order="3">maintitle</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>labeltitleyear</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>labeldateparts</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="multivalued">
++      <bcf:key>labeldatespec</bcf:key>
++      <bcf:value order="1" type="field">date</bcf:value>
++      <bcf:value order="2" type="field">year</bcf:value>
++      <bcf:value order="3" type="field">eventdate</bcf:value>
++      <bcf:value order="4" type="field">origdate</bcf:value>
++      <bcf:value order="5" type="field">urldate</bcf:value>
++      <bcf:value order="6" type="string">nodate</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>maxalphanames</bcf:key>
++      <bcf:value>3</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>maxbibnames</bcf:key>
++      <bcf:value>10</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>maxcitenames</bcf:key>
++      <bcf:value>3</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>maxitems</bcf:key>
++      <bcf:value>3</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>minalphanames</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>minbibnames</bcf:key>
++      <bcf:value>7</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>mincitenames</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>minitems</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>singletitle</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>skipbib</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>skiplab</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>skipbiblist</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>uniquelist</bcf:key>
++      <bcf:value>2</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>uniquename</bcf:key>
++      <bcf:value>6</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>uniqueprimaryauthor</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>uniquetitle</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>uniquebaretitle</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>uniquework</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useprefix</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useafterword</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useannotator</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useauthor</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>usebookauthor</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>usecommentator</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useeditor</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useeditora</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useeditorb</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useeditorc</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useforeword</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useholder</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useintroduction</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>usenamea</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>usenameb</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>usenamec</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>usetranslator</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useshortauthor</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useshorteditor</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++  </bcf:options>
++  <!-- legislation -->
++  <bcf:options component="biblatex" type="legislation">
++    <bcf:option type="singlevalued">
++      <bcf:key>labelalpha</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="multivalued">
++      <bcf:key>labelnamespec</bcf:key>
++      <bcf:value order="1">shortauthor</bcf:value>
++      <bcf:value order="2">author</bcf:value>
++      <bcf:value order="3">shorteditor</bcf:value>
++      <bcf:value order="4">namea</bcf:value>
++      <bcf:value order="5">editor</bcf:value>
++      <bcf:value order="6">nameb</bcf:value>
++      <bcf:value order="7">translator</bcf:value>
++      <bcf:value order="8">namec</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>labeltitle</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="multivalued">
++      <bcf:key>labeltitlespec</bcf:key>
++      <bcf:value order="1">shorttitle</bcf:value>
++      <bcf:value order="2">titleaddon</bcf:value>
++      <bcf:value order="3">title</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>labeltitleyear</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>labeldateparts</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="multivalued">
++      <bcf:key>labeldatespec</bcf:key>
++      <bcf:value order="1" type="field">date</bcf:value>
++      <bcf:value order="2" type="field">year</bcf:value>
++      <bcf:value order="3" type="field">eventdate</bcf:value>
++      <bcf:value order="4" type="field">origdate</bcf:value>
++      <bcf:value order="5" type="field">urldate</bcf:value>
++      <bcf:value order="6" type="string">nodate</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>maxalphanames</bcf:key>
++      <bcf:value>3</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>maxbibnames</bcf:key>
++      <bcf:value>10</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>maxcitenames</bcf:key>
++      <bcf:value>3</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>maxitems</bcf:key>
++      <bcf:value>3</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>minalphanames</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>minbibnames</bcf:key>
++      <bcf:value>7</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>mincitenames</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>minitems</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>singletitle</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>skipbib</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>skiplab</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>skipbiblist</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>uniquelist</bcf:key>
++      <bcf:value>2</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>uniquename</bcf:key>
++      <bcf:value>6</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>uniqueprimaryauthor</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>uniquetitle</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>uniquebaretitle</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>uniquework</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useprefix</bcf:key>
++      <bcf:value>0</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useafterword</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useannotator</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useauthor</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>usebookauthor</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>usecommentator</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useeditor</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useeditora</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useeditorb</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useeditorc</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useforeword</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useholder</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useintroduction</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>usenamea</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>usenameb</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>usenamec</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>usetranslator</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useshortauthor</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++    <bcf:option type="singlevalued">
++      <bcf:key>useshorteditor</bcf:key>
++      <bcf:value>1</bcf:value>
++    </bcf:option>
++  </bcf:options>
+   <!-- music -->
+   <bcf:options component="biblatex" type="music">
+     <bcf:option type="singlevalued">
+@@ -1134,6 +1713,7 @@
+     <bcf:option datatype="boolean">uniquework</bcf:option>
+     <bcf:option datatype="boolean">uniqueprimaryauthor</bcf:option>
+     <bcf:option datatype="boolean">defernumbers</bcf:option>
++    <bcf:option datatype="boolean">locallabelwidth</bcf:option>
+     <bcf:option datatype="boolean">bibwarn</bcf:option>
+     <bcf:option datatype="boolean">useprefix</bcf:option>
+     <bcf:option datatype="boolean">defernums</bcf:option>
+@@ -1145,7 +1725,12 @@
+     <bcf:option datatype="boolean">cmsdate</bcf:option>
+     <bcf:option datatype="boolean">cmsorigdate</bcf:option>
+     <bcf:option datatype="boolean">genallnames</bcf:option>
++    <bcf:option datatype="boolean">hypertitle</bcf:option>
+     <bcf:option datatype="boolean">annotation</bcf:option>
++    <bcf:option datatype="boolean">short</bcf:option>
++    <bcf:option datatype="boolean">noneshort</bcf:option>
++    <bcf:option datatype="boolean">legalnotes</bcf:option>
++    <bcf:option datatype="boolean">supranotes</bcf:option>
+     <bcf:option datatype="boolean">cmslos</bcf:option>
+     <bcf:option datatype="boolean">noibid</bcf:option>
+     <bcf:option datatype="boolean">compresspages</bcf:option>
+@@ -1281,6 +1866,9 @@
+     <bcf:option datatype="boolean">skiplos</bcf:option>
+     <bcf:option datatype="boolean">cmsdate</bcf:option>
+     <bcf:option datatype="boolean">genallnames</bcf:option>
++    <bcf:option datatype="boolean">hypertitle</bcf:option>
++    <bcf:option datatype="boolean">noneshort</bcf:option>
++    <bcf:option datatype="boolean">supranotes</bcf:option>
+     <bcf:option datatype="boolean">usecompiler</bcf:option>
+     <bcf:option datatype="boolean">juniorcomma</bcf:option>
+     <bcf:option datatype="boolean">longcrossref</bcf:option>
+@@ -1341,6 +1929,67 @@
+         <bcf:map_step map_field_source="shorttitle" map_final="1"/>
+         <bcf:map_step map_field_set="shortjournal" map_origfieldval="1"/>
+       </bcf:map>
++      <bcf:map>
++        <bcf:map_step map_field_source="pubstate" map_match="forthcoming" map_final="1"/>
++        <bcf:map_step map_field_set="year" map_origfieldval="1" map_final="1"/>
++        <bcf:map_step map_field_source="year" map_match="(forthcoming)" map_replace="\\bibstring\{$1\}"/>
++        <bcf:map_step map_field_set="pubstate" map_null="1"/>
++      </bcf:map>
++      <bcf:map>
++        <bcf:per_type>article</bcf:per_type>
++        <bcf:per_type>periodical</bcf:per_type>
++        <bcf:per_type>review</bcf:per_type>
++        <bcf:per_type>suppperiodical</bcf:per_type>
++        <bcf:map_step map_field_source="entrysubtype" map_match="newspaper" map_replace="magazine"/>
++      </bcf:map>
++      <bcf:map>
++        <bcf:per_type>jurisdiction</bcf:per_type>
++        <bcf:per_type>legal</bcf:per_type>
++        <bcf:per_type>legislation</bcf:per_type>
++        <bcf:map_step map_field_source="journaltitle" map_final="1"/>
++        <bcf:map_step map_field_set="shortjournal" map_origfieldval="1"/>
++      </bcf:map>
++      <bcf:map map_overwrite="1">
++        <bcf:per_type>jurisdiction</bcf:per_type>
++        <bcf:map_step map_field_source="shortjournal" map_match="[^\\adddot][a-z]" map_final="1"/>
++        <bcf:map_step map_field_set="shortjournal" map_field_value="\addnbspace" map_append="1"/>
++      </bcf:map>
++      <bcf:map>
++        <bcf:per_type>legislation</bcf:per_type>
++        <bcf:map_step map_field_source="title" map_match="Const" map_final="1"/>
++        <bcf:map_step map_field_set="entrysubtype" map_field_value="constitution"/>
++      </bcf:map>
++      <bcf:map>
++        <bcf:per_type>legislation</bcf:per_type>
++        <bcf:map_step map_field_source="entrysubtype" map_match="canada" map_final="1"/>
++        <bcf:map_step map_field_source="bookpagination" map_match="section" map_replace="canadasection"/>
++        <bcf:map_step map_field_source="pagination" map_match="section" map_replace="canadasection"/>
++      </bcf:map>
++      <bcf:map map_overwrite="1">
++        <bcf:map_step map_field_source="subtitle" map_final="1"/>
++        <bcf:map_step map_field_source="title" map_match="\\(mkbib|en)quote\{.+((\?|\!)\})$" map_final="1"/>
++        <bcf:map_step map_field_set="title" map_field_value="\csgdef {@cmsst}{\@ne }" map_append="1"/>
++      </bcf:map>
++      <bcf:map map_overwrite="1">
++        <bcf:map_step map_field_source="booksubtitle" map_final="1"/>
++        <bcf:map_step map_field_source="booktitle" map_match="\\(mkbib|en)quote\{.+((\?|\!)\})$" map_final="1"/>
++        <bcf:map_step map_field_set="booktitle" map_field_value="\csgdef {@cmsst}{\@ne }" map_append="1"/>
++      </bcf:map>
++      <bcf:map map_overwrite="1">
++        <bcf:map_step map_field_source="issuesubtitle" map_final="1"/>
++        <bcf:map_step map_field_source="issuetitle" map_match="\\(mkbib|en)quote\{.+((\?|\!)\})$" map_final="1"/>
++        <bcf:map_step map_field_set="issuetitle" map_field_value="\csgdef {@cmsst}{\@ne }" map_append="1"/>
++      </bcf:map>
++      <bcf:map map_overwrite="1">
++        <bcf:map_step map_field_source="journalsubtitle" map_final="1"/>
++        <bcf:map_step map_field_source="journaltitle" map_match="\\(mkbib|en)quote\{.+((\?|\!)\})$" map_final="1"/>
++        <bcf:map_step map_field_set="journaltitle" map_field_value="\csgdef {@cmsst}{\@ne }" map_append="1"/>
++      </bcf:map>
++      <bcf:map map_overwrite="1">
++        <bcf:map_step map_field_source="mainsubtitle" map_final="1"/>
++        <bcf:map_step map_field_source="maintitle" map_match="\\(mkbib|en)quote\{.+((\?|\!)\})$" map_final="1"/>
++        <bcf:map_step map_field_set="maintitle" map_field_value="\csgdef {@cmsst}{\@ne }" map_append="1"/>
++      </bcf:map>
+     </bcf:maps>
+     <bcf:maps datatype="bibtex" level="driver">
+       <bcf:map>
+@@ -2464,9 +3113,19 @@
+       <bcf:field>eprinttype</bcf:field>
+       <bcf:field>eventday</bcf:field>
+       <bcf:field>eventendday</bcf:field>
++      <bcf:field>eventendhour</bcf:field>
++      <bcf:field>eventendminute</bcf:field>
+       <bcf:field>eventendmonth</bcf:field>
++      <bcf:field>eventendseason</bcf:field>
++      <bcf:field>eventendsecond</bcf:field>
++      <bcf:field>eventendtimezone</bcf:field>
+       <bcf:field>eventendyear</bcf:field>
++      <bcf:field>eventhour</bcf:field>
++      <bcf:field>eventminute</bcf:field>
+       <bcf:field>eventmonth</bcf:field>
++      <bcf:field>eventseason</bcf:field>
++      <bcf:field>eventsecond</bcf:field>
++      <bcf:field>eventtimezone</bcf:field>
+       <bcf:field>eventyear</bcf:field>
+       <bcf:field>eventtitle</bcf:field>
+       <bcf:field>eventtitleaddon</bcf:field>
+@@ -2498,9 +3157,19 @@
+       <bcf:field>eprinttype</bcf:field>
+       <bcf:field>eventday</bcf:field>
+       <bcf:field>eventendday</bcf:field>
++      <bcf:field>eventendhour</bcf:field>
++      <bcf:field>eventendminute</bcf:field>
+       <bcf:field>eventendmonth</bcf:field>
++      <bcf:field>eventendseason</bcf:field>
++      <bcf:field>eventendsecond</bcf:field>
++      <bcf:field>eventendtimezone</bcf:field>
+       <bcf:field>eventendyear</bcf:field>
++      <bcf:field>eventhour</bcf:field>
++      <bcf:field>eventminute</bcf:field>
+       <bcf:field>eventmonth</bcf:field>
++      <bcf:field>eventseason</bcf:field>
++      <bcf:field>eventsecond</bcf:field>
++      <bcf:field>eventtimezone</bcf:field>
+       <bcf:field>eventyear</bcf:field>
+       <bcf:field>eventtitle</bcf:field>
+       <bcf:field>eventtitleaddon</bcf:field>
+@@ -2542,9 +3211,19 @@
+       <bcf:field>eprinttype</bcf:field>
+       <bcf:field>eventday</bcf:field>
+       <bcf:field>eventendday</bcf:field>
++      <bcf:field>eventendhour</bcf:field>
++      <bcf:field>eventendminute</bcf:field>
+       <bcf:field>eventendmonth</bcf:field>
++      <bcf:field>eventendseason</bcf:field>
++      <bcf:field>eventendsecond</bcf:field>
++      <bcf:field>eventendtimezone</bcf:field>
+       <bcf:field>eventendyear</bcf:field>
++      <bcf:field>eventhour</bcf:field>
++      <bcf:field>eventminute</bcf:field>
+       <bcf:field>eventmonth</bcf:field>
++      <bcf:field>eventseason</bcf:field>
++      <bcf:field>eventsecond</bcf:field>
++      <bcf:field>eventtimezone</bcf:field>
+       <bcf:field>eventyear</bcf:field>
+       <bcf:field>eventtitle</bcf:field>
+       <bcf:field>eventtitleaddon</bcf:field>
+@@ -2618,6 +3297,24 @@
+       <bcf:entrytype>unpublished</bcf:entrytype>
+       <bcf:field>addendum</bcf:field>
+       <bcf:field>author</bcf:field>
++      <bcf:field>eventday</bcf:field>
++      <bcf:field>eventendday</bcf:field>
++      <bcf:field>eventendhour</bcf:field>
++      <bcf:field>eventendminute</bcf:field>
++      <bcf:field>eventendmonth</bcf:field>
++      <bcf:field>eventendseason</bcf:field>
++      <bcf:field>eventendsecond</bcf:field>
++      <bcf:field>eventendtimezone</bcf:field>
++      <bcf:field>eventendyear</bcf:field>
++      <bcf:field>eventhour</bcf:field>
++      <bcf:field>eventminute</bcf:field>
++      <bcf:field>eventmonth</bcf:field>
++      <bcf:field>eventseason</bcf:field>
++      <bcf:field>eventsecond</bcf:field>
++      <bcf:field>eventtimezone</bcf:field>
++      <bcf:field>eventyear</bcf:field>
++      <bcf:field>eventtitle</bcf:field>
++      <bcf:field>eventtitleaddon</bcf:field>
+       <bcf:field>howpublished</bcf:field>
+       <bcf:field>language</bcf:field>
+       <bcf:field>location</bcf:field>
+@@ -2626,6 +3323,8 @@
+       <bcf:field>subtitle</bcf:field>
+       <bcf:field>title</bcf:field>
+       <bcf:field>titleaddon</bcf:field>
++      <bcf:field>type</bcf:field>
++      <bcf:field>venue</bcf:field>
+     </bcf:entryfields>
+     <bcf:constraints>
+       <bcf:entrytype>article</bcf:entrytype>
+diff --git a/openintroduction.out b/openintroduction.out
+index a4cba24..e953c92 100644
+--- a/openintroduction.out
++++ b/openintroduction.out
+@@ -69,5 +69,13 @@
+ \BOOKMARK [1][-]{section*.72}{Practice Exercises}{chapter.8}% 69
+ \BOOKMARK [1][-]{section.8.4}{Indirect Proof}{chapter.8}% 70
+ \BOOKMARK [1][-]{section*.73}{Practice Exercises}{chapter.8}% 71
+-\BOOKMARK [0][-]{appendix.A}{Bibliography}{part.3}% 72
+-\BOOKMARK [0][-]{appendix.B}{Glossary}{part.3}% 73
++\BOOKMARK [1][-]{section.8.5}{Tautologies, Equivalences and Inconsistencies}{chapter.8}% 72
++\BOOKMARK [1][-]{section*.74}{Practice Exercises}{chapter.8}% 73
++\BOOKMARK [1][-]{section.8.6}{Derived Rules}{chapter.8}% 74
++\BOOKMARK [1][-]{section*.75}{Practice Exercises}{chapter.8}% 75
++\BOOKMARK [1][-]{section.8.7}{Rules of Replacement}{chapter.8}% 76
++\BOOKMARK [1][-]{section*.76}{Practice Exercises}{chapter.8}% 77
++\BOOKMARK [1][-]{section.8.8}{Proof Strategy}{chapter.8}% 78
++\BOOKMARK [1][-]{section*.77}{Practice Exercises}{chapter.8}% 79
++\BOOKMARK [1][-]{section.8.9}{Soundness and completeness}{chapter.8}% 80
++\BOOKMARK [1][-]{section*.78}{Practice Exercises}{chapter.8}% 81
+diff --git a/openintroduction.run.xml b/openintroduction.run.xml
+index e1e67dc..0b8d2ee 100644
+--- a/openintroduction.run.xml
++++ b/openintroduction.run.xml
+@@ -55,15 +55,15 @@
+       <file>biblatex.def</file>
+       <file>blx-natbib.def</file>
+       <file>chicago-authordate.bbx</file>
+-      <file>chicago-authordate.cbx</file>
+       <file>chicago-dates-common.cbx</file>
++      <file>chicago-authordate.cbx</file>
+       <file>biblatex.cfg</file>
+-      <file>cms-american.lbx</file>
+-      <file>american.lbx</file>
+       <file>english.lbx</file>
++      <file>american.lbx</file>
++      <file>cms-american.lbx</file>
+     </requires>
+   </internal>
+-  <external package="biblatex" priority="5" active="0">
++  <external package="biblatex" priority="5" active="1">
+     <generic>biber</generic>
+     <cmdline>
+       <binary>biber</binary>
+diff --git a/tex/03-aboutthisbook.tex b/tex/03-aboutthisbook.tex
+index e071265..6a60a5f 100644
+--- a/tex/03-aboutthisbook.tex
++++ b/tex/03-aboutthisbook.tex
+@@ -2,11 +2,18 @@
+ \setlength{\parindent}{1em}
+ \chapter{About this Book}
+ 
+-This book was created by combining two previous books on logic and critical thinking, both made available under a Creative Commons license, and then adding some material so that the coverage matched that of commonly used logic textbooks.
+-
+-P.D. Magnus' \textit{For All} X \parencite*{Magnus2008} formed the basis of Part \ref{part:formal_logic}: Formal Logic. I began using \textit{For All} X in my own logic classes in 2009, but I quickly realized I needed to make changes to make it appropriate for the community college students I was teaching. In 2010 I began developing \textit{For All} X \textit{: The Lorain County Remix} and using it in my classes. The main change I made was to separate the discussions of sentential and quantificational logic and to add exercises. It is this remixed version that became the basis for Part \ref{part:formal_logic}: Formal Logic complete version of this text. 
+-
+-Similarly, Part \ref{part:CT}: Critical Thinking\iflabelexists{part:inductive_scientific}{ and Part \ref{part:inductive_scientific}: Inductive and Scientific Reasoning.}{ } grew out of Cathal Woods' \textit{Introduction to Reasoning}. In the Spring of 2011, I began to use an early version of this text (\cite{Woods2011}) in my critical thinking courses. I kept up with the updates and changes to the text until the release of \cite{Woods2014}, all the while gradually merging the material with the work in \textit{For All X}. After that point, my version forks from Woods's.
++This book was created by combining two previous books on logic and critical thinking, both made available under a Creative Commons license, and then adding some material so that the 
++coverage matched that of commonly used logic textbooks.
++
++P.D. Magnus' \textit{For All} X \parencite*{Magnus2008} formed the basis of Part \ref{part:formal_logic}: Formal Logic. I began using \textit{For All} X in my own logic classes in 2009, 
++but I quickly realized I needed to make changes to make it appropriate for the community college students I was teaching. In 2010 I began developing \textit{For All} X \textit{: The 
++Lorain County Remix} and using it in my classes. The main change I made was to separate the discussions of sentential and quantificational logic and to add exercises. It is this remixed 
++version that became the basis for Part \ref{part:formal_logic}: Formal Logic complete version of this text.
++
++Similarly, Part \ref{part:CT}: Critical Thinking\iflabelexists{part:inductive_scientific}{ and Part \ref{part:inductive_scientific}: Inductive and Scientific Reasoning.}{ } grew out of 
++Cathal Woods' \textit{Introduction to Reasoning}. In the Spring of 2011, I began to use an early version of this text (\cite{Woods2011}) in my critical thinking courses. I kept up with 
++the updates and changes to the text until the release of \cite{Woods2014}, all the while gradually merging the material with the work in \textit{For All X}. After that point, my version 
++forks from Woods's.
+ 
+ On May 20, 2016, I posted the combined textbook to Github and all subsequent changes have been tracked there: \url{https://github.com/rob-helpy-chalk/openintroduction}
+ 
+diff --git a/tex/ch01-whatislogic.tex b/tex/ch01-whatislogic.tex
+index d8f1c19..50b6f28 100644
+--- a/tex/ch01-whatislogic.tex
++++ b/tex/ch01-whatislogic.tex
+@@ -77,7 +77,12 @@ When logic is studied for theoretical reasons, it typically is pursued as \texts
+ \item[C:]  $\therefore$ The correct answer is C.
+ \end{earg} 
+ 
+-Here we have replaced the concrete possibilities in the first argument with abstract letters that could stand for anything. We have also replaced the English word ``therefore'' with the symbol ``$\therefore$,'' which means therefore. This lets us see the formal structure of the argument, which is why it works in any domain you can think of. In fact, we can think of formal logic as the method for studying argument that uses abstract notation to identify the formal structure of argument.  Formal logic is closely allied with mathematics, and studying formal logic often has the sort of puzzle-solving character one associates with mathematics. \iflabelexists{full_version}{You will see this when we get to Part \ref{part:formal_logic}, which covers formal logic.}
++Here we have replaced the concrete possibilities in the first argument with abstract letters that could stand for anything. We have also replaced the English 
++word ``therefore'' with the symbol ``$\therefore$,'' which means therefore. This lets us see the formal structure of the argument, which is why it works in 
++any domain you can think of. In fact, we can think of formal logic as the method for studying argument that uses abstract notation to identify the formal 
++structure of argument.  Formal logic is closely allied with mathematics, and studying formal logic often has the sort of puzzle-solving 
++character one associates with mathematics. \iflabelexists{full_version}{You will see this when we get to 
++Parts \ref{part:cat_logic} and \ref{part:sent_logic}, which covers formal logic.}
+ 	{\iflabelexists{part:CT}{}
+ 	{\iflabelexists{part:cat_logic}{You will see this when we get to Parts \ref{part:cat_logic} and \ref{part:sent_logic}, which cover formal logic.}
+ {\iflabelexists{part:quant_logic}{You will see this when we get to Parts \ref{part:sent_logic} and \ref{part:quant_logic}, which cover formal logic.}}	
+@@ -1219,4 +1224,4 @@ home as a big dog.\\
+ \sortitem{Critical thinker}{}
+ \sortitem{Practical argument}{}
+ \end{sortedlist}
+-\end{multicols}
+\ No newline at end of file
++\end{multicols}
+diff --git a/tex/ch03-whatisformallogic.tex b/tex/ch03-whatisformallogic.tex
+index 7e9be40..3b8dac2 100644
+--- a/tex/ch03-whatisformallogic.tex
++++ b/tex/ch03-whatisformallogic.tex
+@@ -146,7 +146,13 @@ Part \ref{part:basic_concepts} covered the basic concepts you need to study any
+ 
+ 
+ 
+-A truth value is the status of a statement as true or false. Thus the truth value of the sentence ``All dogs are mammals'' is ``True,'' while the truth value of ``All dogs are reptiles'' is false. More precisely, a \textsc{\gls{truth value}} \label{def:Truth_value} is the status of a statement with relationship to truth. We have to say this, because there are systems of logic that allow for truth values besides ``true'' and ``false,'' like ``maybe true,'' or ``approximately true,'' or ``kinda sorta true.'' For instance, some philosophers have claimed that the future is not yet determined. If they are right, then statements about \emph{what will be the case} are not yet true or false. Some systems of logic accommodate this by having an additional truth value. Other formal languages, so-called paraconsistent logics, allow for statements that are both true \emph{and} false. We won't be dealing with those in this textbook, however. For our purposes, there are two truth values, ``true'' and ``false,'' and every statement has exactly one of these. Logical systems like ours are called \textsc{\gls{bivalent}}. \label{def:Bivalent}
++A truth value is the status of a statement as true or false. Thus the truth value of the sentence ``All dogs are mammals'' is ``True,'' while the truth value of ``All dogs are reptiles'' 
++is false. More precisely, a \textsc{\gls{truth value}} \label{def:Truth_value} is the status of a statement with relationship to truth. We have to say this, because there are systems of 
++logic that allow for truth values besides ``true'' and ``false,'' like ``maybe true,'' or ``approximately true,'' or ``kinda sorta true.'' For instance, some philosophers have claimed 
++that the future is not yet determined. If they are right, then statements about \emph{what will be the case} are not yet true or false. Some systems of logic accommodate this by having an 
++additional truth value. Other formal languages, so-called paraconsistent logics, allow for statements that are both true \emph{and} false. We won't be dealing with those in this textbook, 
++however. For our purposes, there are two truth values, ``true'' and ``false,'' and every statement has exactly one of these. Logical systems like ours are called \textsc{\gls{bivalent}}. 
++\label{def:bivalent}
+ 
+ 
+ 
+@@ -247,6 +253,7 @@ One of these sentences must be true, and if one of the sentences is true, the ot
+ %%%%%%%%%%%%%%  consistency
+ 
+ \subsection{Consistency}
++\label{sec:consistency}
+ Consider these two statements:
+ 
+ \begin{enumerate}[label=(\alph*)]
+diff --git a/tex/ch06-sentential.tex b/tex/ch06-sentential.tex
+index 5936bc7..8905075 100644
+--- a/tex/ch06-sentential.tex
++++ b/tex/ch06-sentential.tex
+@@ -191,7 +191,11 @@ Consider these further examples:
+ \end{earg}
+ 
+ 
+-If we let $R$ mean ``The widget is replaceable'', then sentence \ref{not4} can be translated as $R$. Sentence \ref{not5} means the opposite of sentence \ref{not4}, so we can translate it $\enot R$. Sentence \ref{enot5b} adds another negation to sentence \ref{not5}. We know, as competent English speakers, that the two negations cancel each other out, so that sentence \ref{enot5b} is equivalent to sentence \ref{not4}. But the fact that two negations cancel each other out is a part of the logic of English that we actually want to capture with our formal language SL. So we will represent the two negations in sentence \ref{not5b} as two negations in SL: $\enot \enot R$. We will now have to be sure that in SL the sentences $R$ and $\enot \enot R$ mean the same thing. 
++If we let $R$ mean ``The widget is replaceable'', then sentence \ref{not4} can be translated as $R$. Sentence \ref{not5} means the opposite of sentence \ref{not4}, so we can translate it 
++$\enot R$. Sentence \ref{not5b} adds another negation to sentence \ref{not5}. We know, as competent English speakers, that the two negations cancel each other out, so that sentence 
++\ref{not5b} is equivalent to sentence \ref{not4}. But the fact that two negations cancel each other out is a part of the logic of English that we actually want to capture with our formal 
++language SL. So we will represent the two negations in sentence \ref{not5b} as two negations in SL: $\enot \enot R$. We will now have to be sure that in SL the sentences $R$ and $\enot 
++\enot R$ mean the same thing.
+ 
+ As the above examples begin to indicate, English has all kinds of ways to negate a sentence.  Sometimes we use an explicit ``not.'' Sometimes we use a prefix like the ``ir-'' in ``irreplaceable.'' SL has just one way to form a negation: slap a \enot in front of the sentence. There is an English expression, however, that always occurs in the same place in an English sentence as the \enot occurs in the sentence SL. The English phrase is ``It is not the case that.'' Although this phrase sounds awkward, it always occurs in front of the sentence it is negating, just as the symbol \enot does. This makes it useful in translating sentences from SL back into English. $\enot R$ can be translated ``it is not the case that this widget is replaceable.'' In the earlier example, $\enot B$ can be translated ``It is not the case that Mary is in Barcelona.'' 
+ 
+@@ -207,9 +211,15 @@ Sometimes negations in English do not function as neatly as the \enot does in SL
+ \end{earg}
+ 
+ 
+-If we let $H$ mean ``Elliot is happy'', then we can symbolize sentence \ref{not6} as $H$, but does \ref{not7} really mean the same thing as $\enot H$? Saying ``Elliott is unhappy'' indicates that Elliott is actively sad. But $\enot H$ can be paraphrase as simply ``It is not the case that Elliott is happy,'' which might merely mean that Elliott is just feeling neutral. As we saw on page \pageref{def:bivalent}, the logics we discuss in this textbook are \emph{bivalent}. Statements are only either true or false. Everything is in black and white, and issues like Elliott's fine gradations in mood cannot be directly represented in our system. So in SL, sentences \ref{not6} and  \ref{not7} would generally be represented by separate sentence letters.
++If we let $H$ mean ``Elliot is happy'', then we can symbolize sentence \ref{not6} as $H$, but does \ref{not7} really mean the same thing as $\enot H$? Saying ``Elliott is unhappy'' 
++indicates that Elliott is actively sad. But $\enot H$ can be paraphrase as simply ``It is not the case that Elliott is happy,'' which might merely mean that Elliott is just feeling 
++neutral. As we saw on page \pageref{def:bivalent}, the logics we discuss in this textbook are \emph{bivalent}. Statements are only either true or false. Everything is in black and white, 
++and issues like Elliott's fine gradations in mood cannot be directly represented in our system. So in SL, sentences \ref{not6} and \ref{not7} would generally be represented by separate 
++sentence letters.
+ 
+-One way of capturing the meaning of a sentential connective is to make a table which shows how the connective changes the meaning of the sentences it is applied to. The negation simply reverses the truth value of any sentence it is put in front of. For any sentence \script{A}: If \script{A} is true, then \enot\script{A} is false. If \enot\script{A} is true, then \script{A} is false. Using T for true and F for false, we can summarize this in a \emph{characteristic truth table} for negation:
++One way of capturing the meaning of a sentential connective is to make a table which shows how the connective changes the meaning of the sentences it is applied to. The negation simply 
++reverses the truth value of any sentence it is put in front of. For any sentence \script{A}: If \script{A} is true, then \enot\script{A} is false. If \enot\script{A} is true, then 
++\script{A} is false. Using T for true and F for false, we can summarize this in a \emph{characteristic truth table} for negation:
+ 
+ \begin{center}
+ \begin{tabular}{c|c}
+@@ -352,7 +362,9 @@ description={A kind of disjunction that allows for the possibility that both dis
+ 
+ The English word ``or'' is somewhat ambiguous. Sometimes in English, when we say ``this or that,'' we mean that either option is possible, but not both. For instance, if a  restaurant menu says, ``Entr\'ees come with either soup or salad'' we naturally assume you can have soup, or you can have salad; but, if you want \emph{both} soup \emph{and} salad, then you will have to pay extra. This kind of disjunction is called an \textsc{\gls{exclusive or}} \label{def:exclusive_or}, because it excludes the possibility that both disjuncts are true. 
+  
+-At other times, the word ``or'' allows for the possibility that both disjuncts might be true. This is probably the case with sentence \ref{or2}, above. I might play with Denison, with Ellery, or with both Denison and Ellery. Sentence \ref{or2} merely says that I will play with \emph{at least} one of them. The \textsc{\gls{inclusive or}}\label{def:inclusive _or} is the kind of disjunction that allows for the possibility that both disjuncts are true. The inclusive or says ``This or that, or both.''
++At other times, the word ``or'' allows for the possibility that both disjuncts might be true. This is probably the case with sentence \ref{or2}, above. I might play with Denison, with 
++Ellery, or with both Denison and Ellery. Sentence \ref{or2} merely says that I will play with \emph{at least} one of them. The \textsc{\gls{inclusive or}}\label{def:inclusive_or} is the 
++kind of disjunction that allows for the possibility that both disjuncts are true. The inclusive or says ``This or that, or both.''
+ 
+ To goal of a formal language is to remove ambiguity, so we need to pick one of these ors. SL follows tradition and uses the symbol $\eor$ to represent an \emph{inclusive or}. This winds up being reflected in the characteristic truth table for the $\eor$. The sentence $D \eor E$ is true if $D$ is true, if $E$ is true, or if both $D$ and $E$ are true. It is false only if both $D$ and $E$ are false. The truth table looks like this:
+ 
+@@ -637,7 +649,6 @@ You can combine disjunction, conjunction, and negation to represent the exclusiv
+ 
+ Remember on page \pageref{def:inclusive_or}, we said that the $\eor$ in SL represented an inclusive or. It said ``this or that or both.'' If we want to represent an exclusive or, we need to combine disjunction, conjuction and negation. We can break the sentence into two parts. The first part says that you get one or the other. We translate this as $(S_1 \eor S_2)$. The second part says that you do not get both. We can paraphrase this as ``It is not the case both that you get soup and that you get salad.'' Using both negation and conjunction, we translate this as $\enot(S_1 \eand S_2)$. Now we just need to put the two parts together. As we saw above, ``but'' can usually be translated as a conjunction. Sentence \ref{or.xor} can thus be translated as $(S_1 \eor S_2) \eand \enot(S_1 \eand S_2)$.
+ 
+-
+ % ******************************************
+ %  * 		Recursive Syntax for  SL                		    *
+ % ******************************************
+diff --git a/tex/ch07-truthtables.tex b/tex/ch07-truthtables.tex
+index 0e8c859..a487681 100644
+--- a/tex/ch07-truthtables.tex
++++ b/tex/ch07-truthtables.tex
+@@ -612,7 +612,8 @@ description={A property held by sets of sentences if and only if the complete tr
+ A set of sentences in English is consistent if it is logically possible for them all to be true at once (p. \pageref{def:inconsistency}).
+ This means that a sentence is \textsc{\gls{semantically consistent in SL}} \label{def:semantically_consistent_in_sl} if and only if there is at least one line of a complete truth table on which all of the sentences are true. It is semantically inconsistent otherwise.
+ 
+-Consider the three sentences $A \eif B$, $B \eif C$ and $C \eif A$. Since we are considering them as a set, we will put curly braces around them, as is done in set theory: \{$A \eif B, B \eif C, C \eif A$\}. The conditionals in this set form a little loop, but it is possible for all the sentences to be true at the same time, as this truth table shows.
++Consider the three sentences $A \eif B$, $B \eif C$ and $C \eif A$. Since we are considering them as a set, we will put curly braces around them, as is done in 
++set theory: \{$A \eif B, B \eif C, C \eif A$\}. The conditionals in this set form a little loop, but it is possible for all the sentences to be true at the same time, as this truth table shows.
+ 
+ \begin{longtabu}{cccc|ccccc|cccc}
+ A	&	\eif	&	B	&	&	&	B	&	\eif	&	C	&	&	&	C	&	\eif	&	A	\\
+diff --git a/tex/ch08-proofsinsl.tex b/tex/ch08-proofsinsl.tex
+index 8cb7e88..08c5caa 100644
+--- a/tex/ch08-proofsinsl.tex
++++ b/tex/ch08-proofsinsl.tex
+@@ -6,7 +6,7 @@
+ \newcounter{theorem}
+ \setcounter{theorem}{1}
+ 
+-%\label{whole_slproof_chap} %uncomment and typeset twice to print the whole chapter.
++\label{whole_slproof_chap} %uncomment and typeset twice to print the whole chapter.
+ 
+ 
+ %rob: This chapter is based on the original Chapter 6. I took all the material on proof in SL and moved it earlier in the book so the students would have a chance to start doing derivations earlier. I have also expanded the opening material that wasn't in a Chapter section into its own Chapter section explaining the basic idea of a proof. 
+@@ -16,6 +16,7 @@
+ % *******************************************
+ 
+ \section{Substitution Instances and Proofs}
++\label{sec:substitution_instances}
+ 
+ % rob: Changed opening to add big picture stuff. What we did last chapter, what we will do this chapter. The ability to use deduction as an important mental skill
+ 
+@@ -43,7 +44,11 @@ Consider two arguments in SL:
+ \end{tabu}
+ \end{quotation}
+ 
+-These are both valid arguments. Go ahead and prove that for yourself by constructing the four-line truth tables. These particular valid arguments are examples of important kinds of arguments that are given special names. Argument A is an example of a kind of argument traditionally called \emph{disjunctive syllogism}. In the system of proof we will develop later in the chapter, it will be given a newer name, \emph{disjunction elimination} (\eor-E). Given a disjunction and the negation of one of the disjuncts, the other disjunct follows as a valid consequence. Argument B makes use of a different valid form: Given a conditional and its antecedent, the consequent follows as a valid consequence. This is traditionally called \emph{modus ponens}. In our system it will be called \emph{conditional elimination} (\eif-E). 
++These are both valid arguments. Go ahead and prove that for yourself by constructing the four-line truth tables. These particular valid arguments are examples of important kinds of 
++arguments that are given special names. Argument A is an example of a kind of argument traditionally called \emph{disjunctive syllogism}. In the system of proof we will develop later in 
++the chapter, it will be given a newer name, \emph{disjunction elimination} (\eor-E). Given a disjunction and the negation of one of the disjuncts, the other disjunct follows as a valid 
++consequence. Argument B makes use of a different valid form: Given a conditional and its antecedent, the consequent follows as a valid consequence. This is traditionally called 
++\emph{modus ponens}. In our system it will be called \emph{conditional elimination} (\eif-E).
+ 
+ Both of the arguments above remain valid even if we substitute different sentence letters. You don't even need to run the truth tables again to see that these arguments are valid: 
+ \begin{quotation}
+@@ -771,11 +776,22 @@ Reiteration (R)
+ 	\have[n]{b}{\script{A}} \by{R}{a}
+ \end{proof}
+ 
+-This diagram shows how you can add lines to a proof using the rule of reiteration. As before, the script letters represent sentences of any length. The upper line shows the sentence that comes earlier in the proof, and the bottom line shows the new sentence you are allowed to write and how you justify it. The reiteration rule above is justified by one line, the line that you are reiterating. So the ``R $m$'' on line 2 of the proof means that the line is justified by the reiteration rule (R) applied to line $m$. The letters $m$ and $n$ are variables, not real line numbers. In a real proof, they might be lines 5 and 7, or lines 1 and 2, or whatever. When we define the rule, however, we use variables to underscore the point that the rule may be applied to any line that is already in the proof. 
++This diagram shows how you can add lines to a proof using the rule of reiteration. As before, the script letters represent sentences of any length. The upper line shows the sentence that 
++comes earlier in the proof, and the bottom line shows the new sentence you are allowed to write and how you justify it. The reiteration rule above is justified by one line, the line that 
++you are reiterating. So the ``R $m$'' on line 2 of the proof means that the line is justified by the reiteration rule (R) applied to line $m$. The letters $m$ and $n$ are variables, not 
++real line numbers. In a real proof, they might be lines 5 and 7, or lines 1 and 2, or whatever. When we define the rule, however, we use variables to underscore the point that the rule 
++may be applied to any line that is already in the proof.
+ 
+-Obviously, the reiteration rule will not allow us to show anything \emph{new}. For that, we will need more rules. The remainder of this section will give six basic introduction and elimination rules. This will be enough to do some basic proofs in SL. Sections 4.3 through 4.5 will explain introduction rules involved in fancier kinds of derivation called conditional proof and indirect proof. The remaining sections of this chapter will develop our system of natural deduction further and give you tips for playing in it.
++Obviously, the reiteration rule will not allow us to show anything \emph{new}. For that, we will need more rules. The remainder of this section will give six basic introduction and 
++elimination rules. This will be enough to do some basic proofs in SL. Sections \ref{sec:conditional_proof} through \ref{sec:indirect_proof} will explain introduction rules involved in 
++fancier kinds of derivation called conditional proof and indirect proof. The remaining sections of this chapter will develop our system of natural deduction further and give you tips for 
++playing in it.
+ 
+-All of the rules introduced in this chapter are summarized starting on p.\pageref{ProofRules}.
++All of the rules introduced in this chapter are summarized starting on p.~\pageref{sec:proof_rules}.
++
++%%%%%%%%%%%%%
++%rcr I added the proofrules label above -- added the rules at the end of the chapter
++%%%%%%%%%%%%
+ 
+ \subsection{Conjunction}
+ 
+@@ -804,7 +820,8 @@ A line of proof must be justified by some rule, and here we have ``{\eand}I $m$,
+ 
+ We have written two versions of the rule to indicate that you can write the conjuncts in any order. Even though $K$ occurs before $L$ in the proof, you can derive $(L \eand K)$ from them using the right-hand version {\eand}I. You do not need to mark this in any special way in the proof.
+ 
+-Now, consider the elimination rule for conjunction. What are you entitled to conclude from a sentence like $E \eand F$? Surely, you are entitled to conclude $E$; if $E \eand F$ were true, then $E$ would be true. Similarly, you are entitled to conclude $F$. This will be our conjunction elimination rule, which we abbreviate {\eand}E:
++Now, consider the elimination rule for conjunction. What are you entitled to conclude from a sentence like $E \eand F$? Surely, you are entitled to conclude $E$; if $E \eand F$ were true, then $E$ would be true. Similarly, you are entitled to conclude $F$. This will be our conjunction elimination rule, which we 
++abbreviate {\eand}E:
+ 
+ \begin{multicols}{2}
+ \begin{proof}
+@@ -894,7 +911,9 @@ Like the rule of conjunction elimination, this rule can be applied two ways. Als
+ 
+ This might seem odd. How can we prove a sentence that includes $A$, $B$, and the rest, from the simple sentence $M$---which has nothing to do with the other letters? The secret here is to remember that all the new letters are on just one side of a disjunction, and nothing on that side of the disjunction has to be true. As long as $M$ is true, we can add whatever we want after a disjunction and the whole thing will continue to be true. 
+ 
+-Now consider the disjunction elimination rule. What can you conclude from $M \eor N$? You cannot conclude $M$. It might be $M$'s truth that makes $M \eor N$ true, as in the example above, but it might not. From $M \eor N$ alone, you cannot conclude anything about either $M$ or $N$ specifically. If you also knew that $N$ was false, however, then you would be able to conclude $M$.
++Now consider the disjunction elimination rule. What can you conclude from $M \eor N$? You cannot conclude $M$. It might be $M$'s truth that makes $M \eor N$ true, as in the example above, 
++but it might not. From $M \eor N$ alone, you cannot conclude anything about either $M$ or $N$ specifically. If you also knew that $N$ was false, however, then you would be able to 
++conclude $M$.
+ 
+ \begin{multicols}{2}
+ \begin{proof}
+@@ -914,9 +933,11 @@ We've seen this rule before: it is just disjunctive syllogism. Now that we are u
+ 
+ \subsection{Conditionals and biconditionals}
+ 
+-The rule for conditional introduction is complicated because it requires a whole new kind of proof, called conditional proof. We will deal with this in the next section. For now, we will only use the rule of conditional elimination.
++The rule for conditional introduction is complicated because it requires a whole new kind of proof, called conditional proof. We will deal with this in the next section. For now, we will 
++only use the rule of conditional elimination.
+ 
+-Nothing follows from $M\eif N$ alone, but if we have both $M \eif N$ and $M$, then we can conclude $N$. This is another rule we've seen before: modus ponens. It now enters our system of natural deduction as the conditional elimination rule ({\eif}E).
++Nothing follows from $M\eif N$ alone, but if we have both $M \eif N$ and $M$, then we can conclude $N$. This is another rule we've seen before: modus ponens. It now enters our system of 
++natural deduction as the conditional elimination rule ({\eif}E).
+ 
+ \begin{proof}
+ 	\have[m]{ab}{\script{A}\eif\script{B}}
+@@ -924,7 +945,8 @@ Nothing follows from $M\eif N$ alone, but if we have both $M \eif N$ and $M$, th
+ 	\have[\ ]{b}{\script{B}} \ce{ab,a}
+ \end{proof}
+ 
+-Biconditional elimination ({\eiff}E) will be a double-barreled version of conditional elimination. If you have the left-hand subsentence of the biconditional, you can derive the right-hand subsentence. If you have the right-hand subsentence, you can derive the left-hand subsentence. This is the rule:
++Biconditional elimination ({\eiff}E) will be a double-barreled version of conditional elimination. If you have the left-hand subsentence of the biconditional, you can derive the 
++right-hand subsentence. If you have the right-hand subsentence, you can derive the left-hand subsentence. This is the rule:
+ 
+ \begin{multicols}{2}
+ \begin{proof}
+@@ -944,7 +966,8 @@ Biconditional elimination ({\eiff}E) will be a double-barreled version of condit
+ 
+ %rob: I added this brief subsection to make clear what was going to happen in the first problem part, and to re-emphasize the idea of invalid arguments
+ 
+-In section 4.1, in the last two problem parts  (p. \pageref{sec4.1partC}), we saw that sometimes an argument looks like a legitimate substitution instance of a valid argument form, but really isn't.  For instance, the problem set C asked you to identify instances of modus ponens. Below I'm giving you two of the answers.
++In section \ref{sec:substitution_instances}, in the last two problem parts (p. \pageref{sec4.1partC}), we saw that sometimes an argument looks like a legitimate substitution instance of a 
++valid argument form, but really isn't.  For instance, the problem set C asked you to identify instances of modus ponens. Below I'm giving you two of the answers.
+  
+ \begin{multicols}{2}
+ (5) Modus ponens
+@@ -1645,6 +1668,7 @@ Translate the following arguments into SL and then show that they are valid. Be
+ % *			Conditional Proof					   *	
+ % *******************************************
+ \section{Conditional Proof}
++\label{sec:conditional_proof}
+ \setlength{\parindent}{1em}
+ %I separated this out from the first section. 
+ 
+@@ -1658,7 +1682,8 @@ Consider this argument:
+ \item $R \eor F$
+ \itemc[.15] $\enot R \eif F$
+ \end{earg*}
+-The argument is valid. You can use the truth table to check it. Unfortunately, we don't have a way to prove it in our syntactic system of derivation. To help us see what our rule for conditional introduction should be, we can try to figure out what new rule would let us prove this obviously true argument.
++The argument is valid. You can use the truth table to check it. Unfortunately, we don't have a way to prove it in our syntactic system of derivation. To help us see what our rule for 
++conditional introduction should be, we can try to figure out what new rule would let us prove this obviously true argument.
+ 
+ Let's start the proof in the usual way, like this:
+ 
+@@ -1687,7 +1712,8 @@ So now let's go ahead and show F in the subderivation.
+ 	\close
+ \end{proof}
+ 
+-This has shown that \emph{if} we had $\enot R$ as a premise, \emph{then} we could prove $F$. In effect, we have proven $\enot R \eif F$. So the conditional introduction rule ({\eif}I) will allow us to close the subproof and derive $\enot R \eif F$ in the main proof. Our final proof looks like this:
++This has shown that \emph{if} we had $\enot R$ as a premise, \emph{then} we could prove $F$. In effect, we have proven $\enot R \eif F$. So the 
++conditional introduction rule ({\eif}I) will allow us to close the subproof and derive $\enot R \eif F$ in the main proof. Our final proof looks like this:
+ 
+ \begin{proof}
+ 	\hypo{rf}{R \eor F}\by{Want: \enot R \eif F}{}
+@@ -1814,7 +1840,9 @@ Just as the rule for biconditional elimination was a double-headed version of co
+ 	\have[\ ]{ab}{\script{A}\eiff\script{B}}\bi{a1-b1,b2-a2}
+ \end{proof}
+ 
+-We will call any proof that uses subproofs and either \eif I or \eiff I \define{conditional proof}. By contrast, the first kind of proof you learned, where you only use the six basic rules, will be called \define{direct proof}. In section 4.3 we will learn the third and final  kind of proof \emph{indirect proof}. But for now you should practice conditional proof. 
++We will call any proof that uses subproofs and either \eif I or \eiff I \define{conditional proof}. By contrast, the first kind of proof you learned, where you only use the six basic 
++rules, will be called \define{direct proof}. In section \ref{sec:indirect_proof} we will learn the third and final kind of proof \emph{indirect proof}. But for now you should practice 
++conditional proof.
+ 
+ %%%%%%Practice Problems %%%%%%%%%%%%%%%
+ \practiceproblems
+@@ -2244,7 +2272,8 @@ In our system of natural deduction, this kind of proof will be known as \define{
+ \end{multicols}
+ 
+ 
+-For the rule to apply, the last two lines of the subproof must be an explicit contradiction: either the second sentence is the direct negation of the first, or vice versa. We write ``for reductio'' as a note to ourselves, a reminder of why we started the subproof. It is not formally part of the proof, and you can leave it out if you find it distracting.
++For the rule to apply, the last two lines of the subproof must be an explicit contradiction: either the second sentence is the direct negation of the first, or vice versa. We write ``for 
++reductio'' as a note to ourselves, a reminder of why we started the subproof. It is not formally part of the proof, and you can leave it out if you find it distracting.
+ 
+ To see how the rule works, suppose we want to prove a law of double negation $A$ $\therefore$ $\enot \enot A$
+ \label{DN1}
+@@ -2784,7 +2813,8 @@ There are two solutions. In one, you look at the want line to figure out the ass
+ %Translate the following arguments in to SL and then show that they are valid. Be sure to write out your dictionary. 
+ 
+ %
+-%  This is the opening of the conditional formatting tag for typesetting only part of this chapter. Everything from here to the close tag will be skipped unless the {whole_slproof_chap} label at the
++%  This is the opening of the conditional formatting tag for typesetting only part of this chapter. Everything from here to the close tag will be skipped 
++% unless the {whole_slproof_chap} label at the
+ %  start of this chapter is uncommented.
+ %
+ 
+@@ -2794,10 +2824,12 @@ There are two solutions. In one, you look at the want line to figure out the ass
+ % *		Tautologies and Equivalences				   *	
+ % *******************************************
+ 
+-\section{Tautologies and Equivalences}
+-
++\section{Tautologies, Equivalences and Inconsistencies}
++\label{sec:taut-eq-incon}
+ 
+-So far all we've looked at is whether conclusions follow validly from sets of premises. However, as we saw in the chapter on truth tables, there are other logical properties we want to investigate: whether a statement is a tautology, a contradiction or a contingent statement, whether two statements are equivalent, and whether sets of sentences are consistent. In this section, we will look at using derivations to test for two properties which will be important in later sections, logical equivalence and being a tautology.
++So far all we've looked at is whether conclusions follow validly from sets of premises. However, as we saw in the chapter on truth tables, there are other logical properties we want to 
++investigate: whether a statement is a tautology, a contradiction or a contingent statement, whether two statements are equivalent, and whether sets of sentences are consistent. In this 
++section, we will look at using derivations to test for three properties which will be important in later sections, logical equivalence, inconsistency and being a tautology.
+ 
+ 
+ \newglossaryentry{syntactically logically equivalent in SL}
+@@ -2806,7 +2838,10 @@ name=syntactically logically equivalent in SL,
+ description={A property held by pairs of statements in SL if and only if there is a derivation which takes you from each one to the other one.}
+ }
+ 
+-We can say that two statements are \textsc{\gls{syntactically logically equivalent in SL}} \label{def:syntactically_logically_equivalent_in_sl} if you can derive each of them from the other. We can symbolize this the same way we symbolized semantic equivalence. When we introduced the double turnstile (p. \pageref{defDoubleTurnstile}), we said we would write the symbol facing both directions to indicate that two sentences were semantically equivalent, like this: $A \eand B \ndststile{}{} \hspace{.5em} \sdtstile{}{} B \eand A$. We can do the same thing with the single turnstile for syntactic equivalence, like this:  $A \eand B \nsststile{}{} \hspace{.5em} \sststile{}{} B \eand A$. 
++We can say that two statements are \textsc{\gls{syntactically logically equivalent in SL}} \label{def:syntactically_logically_equivalent_in_sl} if you can derive each of them from the 
++other. We can symbolize this the same way we symbolized semantic equivalence. When we introduced the double turnstile (p. \pageref{defDoubleTurnstile}), we said we would write the symbol 
++facing both directions to indicate that two sentences were semantically equivalent, like this: $A \eand B \ndststile{}{} \hspace{.5em} \sdtstile{}{} B \eand A$. We can do the same thing 
++with the single turnstile for syntactic equivalence, like this: $A \eand B \nsststile{}{} \hspace{.5em} \sststile{}{} B \eand A$.
+ 
+ For an example of how we can show two sentences to be syntactically equivalent, consider the sentences $P \eif (Q \eif R)$ and $(P \eif Q) \eif (P \eif R)$. \label{theorem_DistributionOfImplicationOverImplication} To prove these logically equivalent using derivations, we simply use derivations to prove the equivalence one way, from P \eif (Q \eif R) to (P \eif Q) \eif (P \eif R). And then we prove it going the other way, from (P \eif Q) \eif (P \eif R) to P \eif (Q \eif R). We set up the proof going left to right like this: 
+ 
+@@ -2882,10 +2917,60 @@ We can also prove that a sentence is a tautology using a derivation. A tautology
+ 	\have{ngng}{\enot(G \eand \enot G)}\ni{gng-ng}
+ \end{proof}
+ 
+-This statement simply says that any sentence G cannot be both true and not true at the same time. We prove it by imagining what would happen if G were actually both true and not true, and then pointing out that we already have our contradiction. 
++This statement simply says that any sentence G cannot be both true and not true at the same time. We prove it by imagining what would happen if G were actually both true and not true, and 
++then pointing out that we already have our contradiction.
++
++In the previous chapter, we expressed the fact that something could be proven a tautology using truth tables by writing the double turnstile in front of it. The law of noncontradiction 
++above could have been proven using truth tables, so we could write: $\sdtstile{}{} \enot(G \eand \enot G)$ In this chapter, we will use the single turnstile the same way, to indicate that 
++a sentence can be proven to be a tautology using a derivation. Thus the above proof entitles us to write $\sststile{}{} \enot(G \eand \enot G)$.
++
++\newglossaryentry{syntactically logically inconsistent in SL}
++{
++name=syntactically logically inconsistent in SL,
++description={A property held by sets of statements in SL if and only if there is a derivation which results in a contradiction.}
++}
++
++%%%%%%%%%%
++%%rcr. Syntactically inconsistent
++%%%%%%%%%%
++Finally, the natural deduction method can be used to prove that a set of sentences are inconsistent. Recall our definition from
++Section~\ref{sec:consistency}: a set of sentences in English are said to be inconsistent if they cannot all be true at the same time. Otherwise
++they are consistent. 
++We were able to prove this semantic relationship in Chapter~\ref{chap:truth_tables} by drawing a truth table for
++every sentence in the set, and then inspecting the column under the main connective of each. If there was a single row in which every sentence
++contained a T, then it was determined to be logically consistent. If there is not a single row in which all members of the set contains a T, then it was
++determined to be logically inconsistent.
++
++When we say that a set of sentences is inconsistent, we sometimes also say that it ``contains a contradiction''. By this, we mean that logically, it is not possible for all of the
++statements to be true, taken together. However, more precisely, if a set of sentences is logically inconsistent, it does not ``contain" a contradiction: rather, from a set of inconsistent
++sentences one can derive a contradiction. It is this relationship that we will exploit in a derivation, using either the indirect proof, or conditional proof method. We can say that two
++statements are \textsc{\gls{syntactically logically inconsistent in SL}} \label{def:syntactically_logically_inconsistent_in_sl} if you can derive a contradiction from them.
++
++
+ 
+-In the previous chapter, we expressed the fact that something could be proven a tautology using truth tables by writing the double turnstile in front of it. The law of noncontradiction above could have been proven using truth tables, so we could write: $\sdtstile{}{} \enot(G \eand \enot G)$ In this chapter, we will use the single turnstile the same way, to indicate that a sentence can be proven to be a tautology using a derivation. Thus the above proof entitles us to write $\sststile{}{} \enot(G \eand \enot G)$.  
++Like invalid arguments, the natural deduction method cannot be used to show that a set of sentences is logically consistent, since the test for such a relationship
++would involve showing that a contradiction \emph{cannot} be derived. Of course, because of the strategic nature of the derivation rules, there is no independent
++rigorous test to distinguish between an attempted derivation in which no contradiction is logically possible, and one in which no derivation could be found.
++Since there are an infinite number of combinations of application of the derivation rules, but each derivation is finite, no such test can be performed.
+ 
++Consider this proof that the following set of sentences are logically inconsistent: \{$P \eif Q, P, \enot Q$\}.
++
++\begin{proof}
++        \hypo{1}{P \eif Q}
++        \hypo{2}{P}
++        \hypo{3}{\enot Q} \by{Want: $P \eand \enot P$}{}
++        \open
++                \hypo{4}{P}\by{for reductio}{}
++                \have{5}{Q}\by{\eif I}{1, 4} 
++                \have{6}{\enot Q} \by{R}{3}
++        \close
++                \have{7}{\enot P} \by{IP}{4-6}
++                \have{8}{P}{} \by{R}{2}
++                \have{9}{P \eand \enot P} \by{\eand I}{7, 8}
++\end{proof}
++
++By listing the set of sentences among our assumptions, we were able to derive a contradiction \{$P, \eand \enot P$\} using the indirect proof method. Since there 
++is a derivation in which a contradiction can be derived from the set of sentences, we conclude that they are logically inconsistent.
+ 
+ \practiceproblems
+  	
+@@ -3178,6 +3263,48 @@ Prove each of the following tautologies
+ 
+ \end{enumerate}
+ 
++%%%%%%%%%%
++%rcr incon problems
++%%%%%%%%%%
++\noindent\problempart   
++\label{pr.derivation.inconsistent}
++Show that each set of sentences is inconsistent by deriving a contradiction.
++\begin{enumerate}
++\item \{$A \eif \enot A$, $\enot A \eif A$\}\vspace{.5ex}%inconsistent. 
++\item \{$A \eor B$, $A \eif C$, $B \eif C$, $\enot C$\}\vspace{.5ex} %  Inconsistent
++\item \{$B\eand(C\eor A)$, $A\eif B$, $\enot(B\eor C)$\}\vspace{.5ex}  %inconsistent
++\item \{$A \eand B$, $C\eif \enot B$, $C$\} \vspace{.5ex}%inconsistent
++\item \{$A\eif B$, $B\eif C$, $A$, $\enot C$\}\vspace{.5ex} %inconsistent
++\item \{$A \eif B$, $B \eif C$, $\enot(A \eif C)$\} \vspace{.5ex} %inconsistent
++\end{enumerate}
++
++\noindent\problempart   
++\label{pr.derivation2.inconsistent2}
++Show that each set of sentences is inconsistent by deriving a contradiction.
++\begin{enumerate}
++\item \{$C \eiff G$, $G \eiff \enot C$\}\vspace{.5ex}
++\item \{$F \eor T$, $(F \eor T) \eif (\enot F \eand \enot T)$\}\vspace{.5ex}
++\item \{$J \eor K$, $\enot J \eor \enot K$, $J \eiff K$\}\vspace{.5ex}
++\item \{$(G \eor K) \eif A$, $(A \eor H) \eif G$, $G \eand \enot A$\}\vspace{.5ex}
++\item \{$D \eiff(\enot P \eand \enot M)$, $P \eiff (J \eand \enot F)$, $\enot F \eor \enot D$, $D \eand J$\}\vspace{.5ex}
++\end{enumerate}
++
++
++
++
++
++%c l ) C=G,      G=-C
++
++
++%c3) JvK,   -Jv-K,   J=K
++%c4)  (GvK)>A,   (AvH)>G,  G&-A
++%c.5) D=(-P&-M),    P=(I&-F), -Fv-D, D&J
++
++
++
++
++
++
+ % *******************************************
+ % *					Derived Rules				   *	
+ % *******************************************
+@@ -3187,9 +3314,12 @@ Prove each of the following tautologies
+ 
+ %rob: new opening paragraph, more ambitions for this section.
+ 
+-Now that we have our five rules for introduction and our five rules for elimination, plus the rule of reiteration, our system is complete. If an argument is valid, and you can symbolize that argument in SL, you can \emph{prove} that the argument is valid using a derivation. (We will say a bit more about this in section \ref{sec:rules_of_rep}.) Now that our system is complete, we can really begin to play around with it and explore the exciting  logical world it creates.
++Now that we have our five rules for introduction and our five rules for elimination, plus the rule of reiteration, our system is complete. If an argument is valid, and you can symbolize 
++that argument in SL, you can \emph{prove} that the argument is valid using a derivation. (We will say a bit more about this in section \ref{sec:rules_of_rep}.) Now that our system is 
++complete, we can really begin to play around with it and explore the exciting logical world it creates.
+ 
+-There's an exciting logical world created by these eleven rules? Yes, yes there is. You can begin to see this by noticing that there are a lot of other interesting rules that we could have used for our introduction and elimination rules, but didn't. In many textbooks, the system of natural deduction has a disjunction elimination rule that works like this:
++There's an exciting logical world created by these eleven rules? Yes, yes there is. You can begin to see this by noticing that there are a lot of other interesting rules that we could 
++have used for our introduction and elimination rules, but didn't. In many textbooks, the system of natural deduction has a disjunction elimination rule that works like this:
+ 
+ \begin{proof}
+ 	\have[m]{ab}{\script{A}\eor\script{B}}
+@@ -3198,11 +3328,18 @@ There's an exciting logical world created by these eleven rules? Yes, yes there
+ 	\have[\ ]{c}{\script{C}} \by{${\eor}\ast$}{ab,ac,bc}
+ \end{proof}
+ 
+-You might think our system is incomplete because it lacks this alternative rule of disjunction elimination. Yet this is not the case. If you can do a proof with this rule, you can do a proof with the basic rules of the natural deduction system. You actually proved this rule in problem \ref{itm:const_d} of part \ref{derivation_set_with_const_d} in the exercises for section \ref{sec:indirect_proof}. Furthermore, once you have a proof of this rule, you can use it inside other proofs whenever you think you would need a rule like $\eor \ast$. Simply use the proof you gave in the last homework as a sort of recipe for generating a new series of steps to get you to a line saying $\script{C} \eor \script{D}$
++You might think our system is incomplete because it lacks this alternative rule of disjunction elimination. Yet this is not the case. If you can do a proof with this rule, you can do a 
++proof with the basic rules of the natural deduction system. You actually proved this rule in problem \ref{itm:const_d} of part \ref{derivation_set_with_const_d} in the exercises for 
++section \ref{sec:indirect_proof}. Furthermore, once you have a proof of this rule, you can use it inside other proofs whenever you think you would need a rule like $\eor \ast$. Simply use 
++the proof you gave in the last homework as a sort of recipe for generating a new series of steps to get you to a line saying $\script{C} \eor \script{D}$
+ 
+-But adding lines to a proof using this recipe all the time would be a pain in the neck. What's worse, there are dozens of interesting possible rules out there, which we could have used for our introduction and elimination rules, and which we now find ourselves replacing with recipes like the one above. 
++But adding lines to a proof using this recipe all the time would be a pain in the neck. What's worse, there are dozens of interesting possible rules out there, which we could have used 
++for our introduction and elimination rules, and which we now find ourselves replacing with recipes like the one above.
+ 
+-Fortunately our basic set of introduction and elimination rules, plus reiteration, was meant to be expanded on. That's part of the game we are playing here. The first system of deduction created in the Western tradition was the system of geometry created by Euclid (c 300 BCE). Euclid's \emph{Elements}  began with 10 basic laws, along with definitions of terms like ``point,'' ``line,'' and ``plane.'' He then went on to prove hundreds of different theorems about geometry, and each time he proved a theorem he could use that theorem to help him prove later theorems. 
++Fortunately our basic set of introduction and elimination rules, plus reiteration, was meant to be expanded on. That's part of the game we are playing here. The first system of deduction 
++created in the Western tradition was the system of geometry created by Euclid (c 300 BCE). Euclid's \emph{Elements} began with 10 basic laws, along with definitions of terms like 
++``point,'' ``line,'' and ``plane.'' He then went on to prove hundreds of different theorems about geometry, and each time he proved a theorem he could use that theorem to help him prove 
++later theorems.
+ 
+ We can do the same thing in our system of natural deduction. What we need is a rule that will allow us to make up new rules. The new rules we add to the system will be called \define{derived rules}. Our ten rules for adding and eliminating connectives are then the \define{axioms} of SL. Now here is our rule for adding rules. 
+ 
+@@ -3608,9 +3745,15 @@ Show the following theorems are valid. Feel free to use $T_{1}$ through $T_{17}$
+ %I merged sections 6.7, 6.8, and 6.9 and restricted the material to SL to create this section. 
+ \section{Soundness and completeness}
+ \label{sec:soundness_and_completeness}
+-In section 4.6, we saw that we could use derivations to test for the same concepts we used truth tables to test for. Not only could we use derivations to prove that an argument is valid, we could also use them to test if a statement is a tautology or a pair of statements are equivalent. We also started using the single turnstile the same way we used the double turnstile. If we could prove that \script{A} was a tautology with a truth table, we wrote $\sdtstile{}{}\script{A}$, and if we could prove it using a derivation, we wrote $\sststile{}{}\script{A}.$ 
++ In section \ref{sec:taut-eq-incon}, we saw that we could use derivations to test for the same concepts we used truth tables to test for. Not only could we use derivations to prove that an argument is valid, 
++we could also use them to test if a statement is a tautology, if a pair of statements are equivalent, or if a set of sentences are inconsistent. We also started using the single turnstile 
++the same way we used the double turnstile. If we could prove that \script{A} was a tautology with a truth table, we wrote $\sdtstile{}{}\script{A}$, and if we could prove it using a 
++derivation, we wrote $\sststile{}{}\script{A}.$
+ 
+-You may have wondered at that point if the two kinds of turnstiles always worked the same way. If you can show that \script{A} is a tautology using truth tables, can you also always show that it is true using a derivation? Is the reverse true? Are these things also true for tautologies and pairs of equivalent sentences? As it turns out, the answer to all these questions and many more like them is yes. We can show this by defining all these concepts separately and then proving them equivalent. That is, we imagine that we actually have two notions of validity, $valid_{\models}$ and  $valid_{\vdash}$ and then show that the two concepts always work the same way. 
++You may have wondered at that point if the two kinds of turnstiles always worked the same way. If you can show that \script{A} is a tautology using truth tables, can you also always show 
++that it is true using a derivation? Is the reverse true? Are these things also true for tautologies and pairs of equivalent sentences? As it turns out, the answer to all these questions 
++and many more like them is yes. We can show this by defining all these concepts separately and then proving them equivalent. That is, we imagine that we actually have two notions of 
++validity, $valid_{\models}$ and $valid_{\vdash}$ and then show that the two concepts always work the same way.
+ 
+ \newglossaryentry{syntactic contradiction in SL}
+ {
+@@ -3743,7 +3886,7 @@ Validity		 				& Derive the conclusion form the premises & Find a line in the tr
+ \item Show that the sentence $A \eiff \enot A$ is a contradiction. 
+ \item Show that the sentence $ \enot (W \eif (J \eor J)) $ is contingent
+ \item Show that the sentence $ \enot(X \eor (Y \eor Z)) \eor (X \eor (Y \eor Z))$ is not contingent
+- \item Show that the sentence $B \eif \enot S$ is equivalent to the sentence $\enot \enot B \eif \enot S$
++\item Show that the sentence $B \eif \enot S$ is equivalent to the sentence $\enot \enot B \eif \enot S$
+ \item Show that the sentence $ \enot (X \eor O) $ is not equivalent to the sentence $X \eand O$
+ \item Show that the set $\{\enot(A \eor B), C, C \eif A\}$ is inconsistent.
+ \item Show that the set \{\enot(A \eor B), \enot{B}, B \eif A\} is consistent
+@@ -3757,7 +3900,7 @@ Validity		 				& Derive the conclusion form the premises & Find a line in the tr
+ \item Show that $A \eif (B \eif A)$ is a tautology
+ \item Show that $\enot (((N \eiff Q) \eor Q) \eor N)$ is not a tautology
+ \item Show that $ Z \eor (\enot Z \eiff Z) $ is contingent
+-\item show that $ (L \eiff ((N \eif N) \eif L)) \eor H $ is not contingent
++\item Show that $ (L \eiff ((N \eif N) \eif L)) \eor H $ is not contingent
+ \item Show that $ (A \eiff A) \eand (B \eand \enot B)$ is a contradiction
+ \item Show that $ (B \eiff (C \eor B)) $ is not a contradiction.
+ \item Show that $ ((\enot X \eiff X) \eor X) $ is equivalent to $X$
+@@ -3776,13 +3919,202 @@ Validity		 				& Derive the conclusion form the premises & Find a line in the tr
+ %\end{earg}
+ %convert last item to something in SL
+ 
+-%
+-% Below is the closing tag for typesetting only part of the chapter. Everything up to here to the close tag will be skipped unless the {whole_slproof_chap} label at the start of this chapter file is 
+-%  uncommented.
++% % Below is the closing tag for typesetting only part of the chapter. Everything up to here to the close tag will be skipped unless the {whole_slproof_chap} label at the start of this 
++%chapter file is % uncommented.
+ 
+ }{}
+ 
+ 
++\section*{Rules of Inference Summary}
++\label{sec:proof_rules}
++%%%%%%%%%%%%%%%%%
++%%%%%%%%%%rcr start proofrules
++%%%%%%%%%%%%%%%%%%
++
++Reiteration (R):
++\begin{proof}
++        \have[m]{a}{\script{A}}
++        \have[n]{b}{\script{A}} \by{R}{a}
++\end{proof}
++
++Negation Introduction ({\enot}I):
++
++\begin{multicols}{2}
++
++\begin{proof}
++\open
++        \hypo[m]{na}{\script{A}}\by{for reductio}{}
++        \have[n]{b}{\script{B}}
++        \have{nb}{\enot\script{B}}
++\close
++\have{a}[\ ]{\enot\script{A}}\ni{na-nb}
++\end{proof}
++
++\begin{proof}
++\open
++        \hypo[m]{na}{\script{A}}\by{for reductio}{}
++        \have[n]{b}{\enot\script{B}}
++        \have{nb}{\script{B}}
++\close
++\have{a}[\ ]{\enot\script{A}}\ni{na-nb}
++\end{proof}
++
++\end{multicols}
++
++
++
++Negation Elimination ({\enot}E):
++
++\begin{multicols}{2}
++\begin{proof}
++\open
++        \hypo[m]{na}{\enot\script{A}}\by{for reductio}{}
++        \have[n]{b}{\script{B}}
++        \have{nb}{\enot\script{B}}
++\close
++\have{a}[\ ]{\script{A}}\ne{na-nb}
++\end{proof}
++
++
++\begin{proof}
++\open
++        \hypo[m]{na}{\enot\script{A}}\by{for reductio}{}
++        \have[n]{b}{\enot\script{B}}
++        \have{nb}{\script{B}}
++\close
++\have{a}[\ ]{\script{A}}\ne{na-nb}
++
++\end{proof}
++\end{multicols}
++
++
++
++Conjunction Introduction ({\eand}I):
++ 
++\begin{multicols}{2}
++
++\begin{proof}
++        \have[m]{a}{\script{A}}
++        \have[n]{b}{\script{B}}
++        \have[\ ]{c}{\script{A}\eand\script{B}} \ai{a, b}
++\end{proof}
++
++\begin{proof}
++        \have[m]{a}{\script{A}}
++        \have[n]{b}{\script{B}}
++        \have[\ ]{c}{\script{B}\eand\script{A}} \ai{a, b}
++\end{proof}
++
++\end{multicols}
++
++
++Conjunction Elimination ({\eand}E):
++
++\begin{multicols}{2}
++\begin{proof}
++        \have[m]{ab}{\script{A}\eand\script{B}}
++        \have[\ ]{a}{\script{A}} \ae{ab}
++\end{proof}
++
++\begin{proof}
++        \have[m]{ab}{\script{A}\eand\script{B}}
++        \have[\ ]{a}{\script{B}} \ae{ab}
++\end{proof}
++\end{multicols}
++
++
++
++
++Disjunction Introduction ({\eor}I):
++
++\begin{multicols}{2}
++ 
++\begin{proof}
++        \have[m]{a}{\script{A}}
++        \have[\ ]{ab}{\script{A}\eor\script{B}}\oi{a}
++\end{proof}
++
++\begin{proof}
++        \have[m]{a}{\script{A}}
++        \have[\ ]{ab}{\script{B}\eor\script{A}}\oi{a}
++\end{proof}
++
++\end{multicols}
++  
++
++Disjunction Elimination ({\eor}E):
++
++\begin{multicols}{2}
++\begin{proof}
++        \have[m]{ab}{\script{A}\eor\script{B}}
++        \have[n]{nb}{\enot\script{B}}
++        \have[\ ]{a}{\script{A}} \oe{ab,nb}
++\end{proof}
++
++\begin{proof}
++        \have[m]{ab}{\script{A}\eor\script{B}}
++        \have[n]{na}{\enot\script{A}}
++        \have[\ ]{b}{\script{B}} \oe{ab,nb}
++\end{proof}
++\end{multicols}
++
++
++Conditional Introduction({\eif}I):
++
++\begin{proof}
++        \open
++                \hypo[m]{a}{\script{A}} \by{want \script{B}}{}
++                \have[n]{b}{\script{B}}
++        \close
++        \have[\ ]{ab}{\script{A}\eif\script{B}}\ci{a-b}
++\end{proof}
++
++
++
++Conditional Elimination ({\eif}E):
++
++\begin{proof}
++        \have[m]{ab}{\script{A}\eif\script{B}}
++        \have[n]{a}{\script{A}}
++        \have[\ ]{b}{\script{B}} \ce{ab,a}
++\end{proof}
++
++
++Biconditional Introduction({\eiff}I):
++
++\begin{proof}
++        \open
++                \hypo[m]{a1}{\script{A}} \by{want \script{B}}{}
++                \have[n]{b1}{\script{B}}
++        \close
++        \open
++                \hypo[p]{b2}{\script{B}} \by{want \script{A}}{}
++                \have[q]{a2}{\script{A}}
++        \close
++        \have[\ ]{ab}{\script{A}\eiff\script{B}}\bi{a1-b1,b2-a2}
++\end{proof}
++
++
++
++Biconditional Elimination ({\eiff}E):
++
++\begin{multicols}{2}
++\begin{proof}
++        \have[m]{ab}{\script{A}\eiff\script{B}}
++        \have[n]{a}{\script{A}}
++        \have[\ ]{b}{\script{B}} \be{ab,a}
++\end{proof}
++
++\begin{proof}
++        \have[m]{ab}{\script{A}\eiff\script{B}}
++        \have[n]{a}{\script{B}}
++        \have[\ ]{b}{\script{A}} \be{ab,a}
++\end{proof}
++\end{multicols}
++
++
++
++%%%%%%%%end proofrules
+ 
+ \section*{Key Terms}
+ \begin{multicols}{2}

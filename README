@@ -1,0 +1,12 @@
+#Changes November 17
+I made changes to a number of the chapters to correct missing or incorrect \label or \ref tags.
+
+I added a section in chapter 8 on inconsistency in SD, and also included practice questions to that chapter.
+
+I found an incomplete reference in the text to a summary of the derivation rules. Since that summary didn't exist, i created it, and then cleaned up the \label and \ref.
+
+A few typoes hre and theree.
+
+
+
+
