@@ -39,15 +39,19 @@
 \def\eor{\ensuremath{\vee}}
 % conjunction: 
 % {\,^{_{_{_{_{\mbox{\footnotesize\textbullet}}}}}}} gives the dot
-\def\eand{\ensuremath{\,\&\,}}
-% conditional: \supset gives the horseshoe
-\def\eif{\ensuremath{\rightarrow}}
-% biconditional: \equiv gives the triple bar
-\def\eiff{\ensuremath{\leftrightarrow}}
+%\def\eand{\ensuremath{\,\&\,}}							%%%%%%%%%original version with the ampersand
+\def\eand{\ensuremath{\,\cdot\,}}						%%%%%%%cdot for baronett
+% conditional: \supset gives the horseshoe					%
+%\def\eif{\ensuremath{\rightarrow}}						%%%%%%%original version with arrow
+\def\eif{\ensuremath{\supset}}							%%%%%%subset gives horseshoe
+% biconditional: \equiv gives the triple bar					%
+%\def\eiff{\ensuremath{\leftrightarrow}}					%%%%%%%%%original version double arrow
+\def\eiff{\ensuremath{\equiv}}							%%%%%%%%equiv for triple bar
 % negation: {\sim} gives the swung dash [this is spaced like a binary relation]
 % negation {\mathord{\sim}} [this spaced like a unary relation]
 % negation: {\neg} gives the turnstyle 
-\def\enot{\ensuremath{\mathord{\sim}}}
+%\def\enot{\ensuremath{\mathord{\sim}}}						%%%%%%%%original hook
+\def\enot{\ensuremath{\mathord{\sim}}}						%%%%%%%sim gives the tilde
 
 
 
