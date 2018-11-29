@@ -764,7 +764,7 @@ $\script{A}: I \eor (I \eiff V)  $
 \setlength{\parindent}{1em}
 %rob: I removed indirect and conditional proof from this section, so that they would have practice just doing direct proofs before they moved on to the fancy stuff. 
 
-In designing a proof system, we could just start with disjunctive syllogism and modus ponens. Whenever we discovered a valid argument that could not be proved with rules we already had, we could introduce new rules. Proceeding in this way, we would have an unsystematic grab bag of rules. We might accidentally add some strange rules, and we would surely end up with more rules than we need.
+In designing a proof system, we could just start with disjunctive syllogism and modus ponens. Whenever we discovered a valid argument that could not be proved with rules we already had, we could introduce new rules. Proceeding in this way, we would have an unsystematic grab bag of rules. We might accidentally add some rules, and we would surely end up with more rules than we need.
 
 Instead, we will develop what is called a \define{system of natural deduction}. In a natural deduction system, there will be two rules for each logical operator: an introduction, and an elimination rule. The introduction rule will allow us to prove a sentence that has the operator you are ``introducing'' as its main connective. The elimination rule will allow us to prove something given a sentence that has the operator we are ``eliminating'' as the main logical operator.
 
@@ -2896,7 +2896,10 @@ This shows that $P \eif (Q \eif R) \sststile{}{} (P \eif Q) \eif (P \eif R)$. In
 \close
 \have{10}{P \eif (Q \eif R)} \by{\eif I}{2-9}
 \end{proof}
-You might think it is strange that we assume $P$ twice in this proof, but that is the way we have to do it. When we assume $P$ on line 2, our goal is to prove $P \eif {Q \eif R}$. Before we can finish that proof, we also need to know that $P \eif Q$. This requires a different subproof. 
+You might think it is strange that we assume $P$ twice in this proof, but that is the way we have to do it. When we assume $P$ on line 2, our goal is to prove $P \eif (Q \eif R)$. Before we can finish that proof, we also need to know that $P \eif Q$. This requires a different subproof. 
+%%%%%
+%fixed a little typoe above where {} was instead of ()
+%%%%%
 
 These two proofs show that $P \eif (Q \eif R)$ and $(P \eif Q) \eif (P \eif R)$ are equivalent, so we can write $P \eif (Q \eif R) \nsststile{}{} \hspace{.5em} \sststile{}{} (P \eif Q) \eif (P \eif R)$. 
 
