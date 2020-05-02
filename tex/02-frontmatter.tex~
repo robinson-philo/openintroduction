@@ -1,11 +1,11 @@
 \thispagestyle{empty}%
 %\clearpage\setcounter{page}{1}
 %\cftpagenumbersoff{chapter}
-This is version 0.1 of An Introduction to Logic Textbook. It is current as of \today. %Complete version information is available at \textbookhomepage.
+This is version 0.1 of An Open Introduction to Logic. It is current as of \today. %Complete version information is available at \textbookhomepage.
 
 \vfill
 
-{\copyright\ \ifthenelse{\year=2005}{\number\year}{2005--\number\year} by Robert C Robinson, Cathal Woods, P.D. Magnus, and J. Robert Loftis. Some rights reserved. }
+{\copyright\ \ifthenelse{\year=2005}{\number\year}{2005--\number\year} by Cathal Woods, P.D. Magnus, and J. Robert Loftis. Some rights reserved. }
 
 \begin{adjustwidth}{2em}{0em}
 {\footnotesize Licensed under a Creative Commons license.\\
@@ -39,7 +39,7 @@ and \emph{For All X} by P.D. Magnus (version 1.27 [090604]), available at \url{w
 
 \vfill
 
-Robert C Robinson compiled this edition and wrote original material for it. He takes full responsibility for any mistakes remaining in this version of the text.
+J. Robert Loftis compiled this edition and wrote original material for it. He takes full responsibility for any mistakes remaining in this version of the text.
 
 
 \vfill
